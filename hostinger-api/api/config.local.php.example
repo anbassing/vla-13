@@ -1,0 +1,19 @@
+<?php
+return [
+    'db' => [
+        'host' => 'localhost',
+        'name' => 'YOUR_DB_NAME',
+        'user' => 'YOUR_DB_USER',
+        'pass' => 'YOUR_DB_PASSWORD',
+        'charset' => 'utf8mb4',
+    ],
+    'cors_origins' => [
+        'https://vla-12.vercel.app',
+        'https://visitindonesia.co.id',
+        'https://www.visitindonesia.co.id',
+    ],
+    'notification_email' => 'hello@visitindonesia.co.id',
+    'from_email' => 'no-reply@visitindonesia.co.id',
+    'rate_limit_per_hour' => 20,
+    'max_message_length' => 8000,
+];

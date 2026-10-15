@@ -1,0 +1,3118 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="web_standard" name="shell-type"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  <style>
+   @layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}
+  </style>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script id="tailwind-config">
+   tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "secondary-fixed-dim": "#88d899", "secondary-fixed": "#a3f5b4", "on-secondary-container": "#22723e", "tertiary-container": "#c7a852", "primary-container": "#1c1a56", "on-secondary-fixed": "#00210c", "on-error-container": "#93000a", "error": "#ba1a1a", "background": "#fff9e8", "tertiary": "#745b07", "primary": "#050040", "on-background": "#1e1c10", "surface-container-lowest": "#ffffff", "on-secondary-fixed-variant": "#005226", "surface": "#fff9e8", "surface-container-highest": "#e8e2cf", "on-tertiary-fixed": "#241a00", "on-surface-variant": "#474650", "surface-container-high": "#eee8d4", "surface-bright": "#fff9e8", "surface-container": "#f4eeda", "secondary": "#1a6c39", "inverse-on-surface": "#f7f1dd", "surface-tint": "#595896", "on-tertiary": "#ffffff", "on-surface": "#1e1c10", "on-primary": "#ffffff", "primary-fixed-dim": "#c2c1ff", "outline-variant": "#c8c5d1", "inverse-surface": "#333123", "surface-container-low": "#faf4df", "tertiary-fixed": "#ffe08e", "secondary-container": "#a3f5b4", "on-tertiary-fixed-variant": "#584400", "on-primary-container": "#8584c5", "on-tertiary-container": "#4f3d00", "on-secondary": "#ffffff", "inverse-primary": "#c2c1ff", "on-primary-fixed-variant": "#41407c", "error-container": "#ffdad6", "tertiary-fixed-dim": "#e4c36a", "surface-dim": "#e0dac7", "on-error": "#ffffff", "primary-fixed": "#e2dfff", "outline": "#777681", "on-primary-fixed": "#14114f", "surface-variant": "#e8e2cf" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin": "1.5rem", "margin-md": "3rem", "gutter-md": "2rem", "gutter-lg": "3rem", "margin-lg": "6rem", "space-xl": "4rem", "space-lg": "2.5rem", "space-md": "1.25rem", "space-sm": "0.75rem", "space-xs": "0.5rem", "gutter": "1.5rem" }, "fontFamily": { "label-md": [ "Plus Jakarta Sans" ], "display-lg": [ "Newsreader" ], "body-lg": [ "Plus Jakarta Sans" ] }, "fontSize": { "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" } ], "display-lg": [ "64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "400" } ], "body-lg": [ "16px", { "lineHeight": "26px", "fontWeight": "400" } ] } } } }
+  </script>
+  <style id="vl-translation-stability">
+   /* Google Translate should never move or cover the Visit Locals header. */
+html, body { top: 0 !important; }
+body { position: relative !important; }
+.goog-te-banner-frame, .goog-te-banner-frame.skiptranslate, iframe.goog-te-banner-frame { display: none !important; visibility: hidden !important; height: 0 !important; }
+.goog-te-balloon-frame, .goog-tooltip, .goog-te-spinner-pos { display: none !important; }
+.goog-text-highlight { background: transparent !important; box-shadow: none !important; }
+.VIpgJd-ZVi9od-ORHb-OEVmcd, .VIpgJd-ZVi9od-aZ1wEm-l4eHX-hSRGPd { display: none !important; }
+/* Keep translated layouts inside their original containers. */
+*, *::before, *::after { box-sizing: border-box; }
+header { transform: translateZ(0); }
+main, section, article, .grid, .flex { min-width: 0; }
+img { max-width: 100%; }
+html[data-vl-lang="ar"] { direction: rtl; }
+html[data-vl-lang="ar"] body { direction: rtl; }
+html[data-vl-lang="ar"] header nav, html[data-vl-lang="ar"] .vl-mobile-nav { direction: rtl; }
+html[data-vl-lang="ja"] body, html[data-vl-lang="zh"] body { word-break: normal; overflow-wrap: anywhere; }
+html[data-vl-lang="tr"] *, html[data-vl-lang="fr"] *, html[data-vl-lang="ar"] *, html[data-vl-lang="ja"] * { letter-spacing: normal; }
+
+<style id="vl-translation-layout-v8">
+/* Keep Google-translated text from breaking the fixed header/cards. */
+html[data-vl-lang="tr"] header, html[data-vl-lang="fr"] header { height: auto !important; }
+html[data-vl-lang="tr"] header > div, html[data-vl-lang="fr"] header > div { min-height: 80px; height: auto !important; }
+html[data-vl-lang="tr"] header nav, html[data-vl-lang="fr"] header nav { gap: .65rem !important; min-width: 0; }
+html[data-vl-lang="tr"] header nav a, html[data-vl-lang="fr"] header nav a { white-space: normal !important; text-align: center; line-height: 1.15 !important; max-width: 92px; }
+html[data-vl-lang="tr"] header .flex.items-center.gap-space-sm, html[data-vl-lang="fr"] header .flex.items-center.gap-space-sm { min-width: 0; flex-shrink: 0; }
+html[data-vl-lang="tr"] main, html[data-vl-lang="fr"] main { overflow-x: clip; }
+html[data-vl-lang="tr"] .grid > *, html[data-vl-lang="fr"] .grid > *, html[data-vl-lang="tr"] .flex > *, html[data-vl-lang="fr"] .flex > * { min-width: 0; }
+html[data-vl-lang="tr"] button, html[data-vl-lang="fr"] button, html[data-vl-lang="tr"] a, html[data-vl-lang="fr"] a { overflow-wrap: anywhere; }
+html[data-vl-lang="tr"] .material-symbols-outlined, html[data-vl-lang="fr"] .material-symbols-outlined { white-space: nowrap !important; overflow-wrap: normal !important; }
+/* Google Translate can add a top offset on some browsers; force the document back to zero. */
+html.translated-ltr, html.translated-rtl, body.translated-ltr, body.translated-rtl { top: 0 !important; margin-top: 0 !important; }
+  </style>
+  <style id="vl-v9-fixes">
+   .vl-language-menu{min-width:178px !important;max-width:220px !important;padding:6px !important;white-space:nowrap !important;}
+.vl-language-option{white-space:nowrap !important;word-break:normal !important;overflow-wrap:normal !important;line-height:1.35 !important;min-height:38px;}
+.vl-language-button,.vl-language-option,.vl-language .material-symbols-outlined{white-space:nowrap !important;word-break:normal !important;overflow-wrap:normal !important;}
+.vl-language{isolation:isolate;}
+.vl-search-result strong{display:block;line-height:1.35;}
+.vl-search-result small{line-height:1.2;}
+html[data-vl-lang="tr"] header nav a,html[data-vl-lang="fr"] header nav a{white-space:nowrap !important;max-width:none !important;}
+html[data-vl-lang="tr"] .vl-language-menu,html[data-vl-lang="fr"] .vl-language-menu{direction:ltr;}
+  </style>
+ <link rel="icon" type="image/png" href="/assets/images/branding/favicon.png">
+</head>
+ <body class="bg-surface font-body-lg text-body-lg text-on-surface">
+  <header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+   <div class="h-20 max-w-7xl mx-auto px-margin md:px-margin-md lg:px-margin-lg flex items-center justify-between">
+    <a class="flex items-center gap-2 group" data-path="home" href="/"><img src="/assets/images/branding/visit-locals-logo.png" alt="Visit Locals" class="w-11 h-11 object-contain shrink-0" /><span class="flex flex-col"><span class="font-display-lg text-[22px] tracking-wide text-primary leading-tight font-medium">VISIT LOCALS</span><span class="font-label-md text-[10px] tracking-widest uppercase text-tertiary font-semibold">Discover Indonesia</span></span></a>
+    <nav class="hidden xl:flex items-center gap-space-md" data-active-classes="bg-primary-container text-on-primary font-bold rounded-lg px-space-xs py-1">
+     <a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="home" href="/">
+      Home
+     </a>
+     <a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="explore" href="/explore/">
+      Explore
+     </a>
+     <a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="business" href="/business/">
+      Business
+     </a>
+     <a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="experience" href="/experience/">
+      Experience
+     </a>
+     <a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="insight" href="/insight/">
+      Insight
+     </a>
+     <a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="partner-with-us" href="/partner/">
+      Partner with Us
+     </a>
+    </nav>
+    <button aria-controls="vl-mobile-menu" aria-expanded="false" aria-label="Open menu" class="vl-mobile-menu-button" type="button">
+     <span aria-hidden="true">
+     </span>
+    </button>
+    <div class="flex items-center gap-space-sm">
+     <button aria-label="Search Archive" class="p-space-xs text-on-surface-variant hover:text-primary transition-colors flex items-center justify-center" type="button">
+      <span class="material-symbols-outlined notranslate text-xl" translate="no">
+       search
+      </span>
+     </button>
+     <div class="relative flex items-center group vl-language notranslate" translate="no">
+      <button aria-expanded="false" aria-haspopup="true" class="vl-language-button flex items-center gap-1 font-label-md text-label-md text-on-surface-variant hover:text-primary px-space-xs py-1 transition-colors uppercase" type="button">
+       <span class="vl-current-language">
+        EN
+       </span>
+       <span class="material-symbols-outlined notranslate text-base" translate="no">
+        expand_more
+       </span>
+      </button>
+      <div aria-label="Language" class="vl-language-menu" role="menu">
+       <button aria-current="true" class="vl-language-option notranslate" data-lang="EN" role="menuitem" translate="no" type="button">
+        EN &mdash; English
+       </button>
+       <button class="vl-language-option notranslate" data-lang="ID" role="menuitem" translate="no" type="button">
+        ID &mdash; Bahasa Indonesia
+       </button>
+       <button class="vl-language-option notranslate" data-lang="AR" role="menuitem" translate="no" type="button">
+        AR &mdash; العربية
+       </button>
+       <button class="vl-language-option notranslate" data-lang="TUR" role="menuitem" translate="no" type="button">
+        TUR &mdash; T&uuml;rk&ccedil;e
+       </button>
+       <button class="vl-language-option notranslate" data-lang="FR" role="menuitem" translate="no" type="button">
+        FR &mdash; Fran&ccedil;ais
+       </button>
+       <button class="vl-language-option notranslate" data-lang="JP" role="menuitem" translate="no" type="button">
+        JP &mdash; 日本語
+       </button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </header>
+  <main class="w-full pt-20 bg-surface">
+   <div class="flex flex-col w-full">
+    <!-- 1. HERO SECTION (Immersive Editorial Luxury & Quick Explorer) -->
+    <section class="relative w-full overflow-hidden bg-primary-container text-on-primary">
+     <!-- Background Image with Scrim -->
+     <div class="absolute inset-0 z-0 bg-cover bg-center transition-transform duration-1000 scale-105" data-alt="Traditional Indonesian Phinisi wooden schooner with dual cream sails gliding effortlessly through turquoise turquoise waters in Komodo National Park, golden hour sunlight hitting dry savanna mountains in the background, luxury marine expedition aesthetic, Newsreader warm tones" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA5qs3zMcAY-at6KTIHqhzZ2YeEWbrUjTL46dxpyBxJ5gg0tsTVwQNj0NQtDviF9Mm2r_xjiNrNA-o6EDIkGlIR39JUPik9-TtsoGp9zoCdn_MeVib-VJ7N1PX1H1PoNO-x6pVe3KneoU9O648wqfTAt-F4pRc7s-zYq5XZTf2MpoHRSnG6q5UGJnFzlsSPwmcVhFtWmUqvakdcHENTxfbe6gXOE95QhcIb8UKbmZX4')">
+      <div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/60 to-primary/30 mix-blend-multiply">
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-r from-primary/80 via-transparent to-primary/40">
+      </div>
+     </div>
+     <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-24 md:pt-24 md:pb-32 flex flex-col items-start justify-end min-h-[640px]">
+      <!-- Kicker badge -->
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface/10 backdrop-blur-md text-tertiary-fixed font-label-md text-label-md uppercase tracking-widest mb-6">
+       <span class="w-2 h-2 rounded-full bg-secondary-fixed">
+       </span>
+       <span>
+        Destination &amp; Journey Guide &middot; Provenance Verified
+       </span>
+      </div>
+      <h1 class="font-display-lg text-display-lg text-surface-bright max-w-4xl tracking-tight leading-none mb-6">
+       Experience Indonesia Differently.
+      </h1>
+      <p class="font-body-lg text-body-lg text-surface-container-high/90 max-w-2xl mb-10 leading-relaxed font-light">
+       From the familiar to the unexpected, discover Indonesia through journeys shaped by local knowledge, real connections, and places worth staying longer for.
+      </p>
+      <!-- Action buttons -->
+      <div class="flex flex-wrap items-center gap-4 mb-14">
+       <a class="px-8 py-3.5 rounded-lg bg-surface-bright text-primary hover:bg-tertiary-fixed font-label-md text-label-md uppercase tracking-wider transition-all duration-300 shadow-xl shadow-primary/30 flex items-center gap-2" href="#destinations">
+        <span>
+         Explore Destinations
+        </span>
+        <span class="material-symbols-outlined notranslate text-sm" translate="no">
+         arrow_downward
+        </span>
+       </a>
+       <a class="px-8 py-3.5 rounded-lg bg-transparent text-surface-bright hover:bg-surface-bright/10 font-label-md text-label-md uppercase tracking-wider transition-all duration-300 shadow-sm flex items-center gap-2" href="#custom-planner">
+        <span>
+         Create My Journey
+        </span>
+        <span class="material-symbols-outlined notranslate text-sm" translate="no">
+         tune
+        </span>
+       </a>
+      </div>
+      <!-- Quick Explorer / Discovery Bar -->
+      <div class="w-full bg-surface-container-lowest/95 backdrop-blur-xl text-on-surface rounded-xl p-6 lg:p-8 shadow-2xl">
+       <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+        <div class="flex-1">
+         <span class="block font-label-md text-[11px] uppercase tracking-widest text-tertiary mb-2">
+          Where do you want to go?
+         </span>
+         <div class="relative flex items-center">
+          <span class="material-symbols-outlined notranslate text-on-surface-variant absolute left-3" translate="no">
+           search
+          </span>
+          <input class="w-full pl-10 pr-4 py-2.5 bg-surface-container text-on-surface rounded-lg font-body-lg text-sm focus:outline-none focus:ring-1 focus:ring-primary placeholder:text-on-surface-variant/60" id="destination-search-input" placeholder="Search by island, cultural tradition, or region (e.g. Toraja, Gayo, Sidemen)..." type="text"/>
+         </div>
+        </div>
+        <div class="lg:max-w-md">
+         <span class="block font-label-md text-[11px] uppercase tracking-widest text-on-surface-variant mb-2">
+          Quick Archipelago Gateway:
+         </span>
+         <div class="flex flex-wrap gap-2">
+          <button class="px-3 py-1 rounded bg-surface-container hover:bg-surface-container-highest text-primary font-label-md text-[11px] transition-colors" onclick="filterDestination('Bali')">
+           Bali
+          </button>
+          <button class="px-3 py-1 rounded bg-surface-container hover:bg-surface-container-highest text-primary font-label-md text-[11px] transition-colors" onclick="filterDestination('Yogyakarta')">
+           Yogyakarta
+          </button>
+          <button class="px-3 py-1 rounded bg-surface-container hover:bg-surface-container-highest text-primary font-label-md text-[11px] transition-colors" onclick="filterDestination('Jakarta')">
+           Jakarta
+          </button>
+          <button class="px-3 py-1 rounded bg-surface-container hover:bg-surface-container-highest text-primary font-label-md text-[11px] transition-colors" onclick="filterDestination('Lombok')">
+           Lombok
+          </button>
+          <button class="px-3 py-1 rounded bg-surface-container hover:bg-surface-container-highest text-primary font-label-md text-[11px] transition-colors" onclick="filterDestination('Flores')">
+           Flores
+          </button>
+          <button class="px-3 py-1 rounded bg-surface-container hover:bg-surface-container-highest text-primary font-label-md text-[11px] transition-colors" onclick="filterDestination('Sulawesi')">
+           Sulawesi
+          </button>
+          <button class="px-3 py-1 rounded bg-surface-container hover:bg-surface-container-highest text-primary font-label-md text-[11px] transition-colors" onclick="filterDestination('Sumatra')">
+           Sumatra
+          </button>
+          <button class="px-3 py-1 rounded bg-surface-container hover:bg-surface-container-highest text-primary font-label-md text-[11px] transition-colors" onclick="filterDestination('Raja Ampat')">
+           Raja Ampat
+          </button>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <!-- 2. DESTINATION DISCOVERY (PRIMARY FOCUS) -->
+    <section class="w-full bg-surface py-20 lg:py-28" id="destinations">
+     <div class="max-w-7xl mx-auto px-6 lg:px-12">
+      <!-- Section Header -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
+       <div>
+        <span class="font-label-md text-label-md uppercase tracking-widest text-tertiary">
+         Archipelagic Atlas
+        </span>
+        <h2 class="font-display-lg text-4xl lg:text-5xl text-primary font-normal tracking-tight mt-2">
+         Where Will You Go?
+        </h2>
+        <p class="font-body-lg text-on-surface-variant text-base mt-2 max-w-xl">
+         Every destination has its own rhythm, landscape, culture, and local character.
+        </p>
+       </div>
+       <div class="flex items-center gap-3">
+        <span class="font-label-md text-xs text-on-surface-variant">
+         Showing 8 Sovereign Regions
+        </span>
+        <span class="w-1.5 h-1.5 rounded-full bg-secondary">
+        </span>
+       </div>
+      </div>
+      <!-- Editorial Destination Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8" id="destination-grid">
+       <!-- 1. Bali -->
+       <article class="destination-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-name="Bali">
+        <div class="relative aspect-[4/5] overflow-hidden bg-surface-container">
+         <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Lush green terraced rice fields in Sidemen East Bali under soft golden morning rays with palm trees, ancient irrigation subak water mirror, peaceful tranquil atmosphere" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDlkk82JcCAinsT9Vx_CNFdndkSSyg52GARxim-GZaLVxCrjDaD-9tU62_nVASsOQQeVJROQ7Hy8k2uvfM3Sw3Osv8yKItyPuwtyEbf765dgvWjkAvCtnJf5GCn4e2HdkGq4GvMfueJ0_ISlVjeZDdoU4H5YnZIiQymEuTIw69tbqwj9SWZeZvC12noRBDXXH9NZKrXuo6AD7PRFAfPqeyxZi85ewBiC2E8QSxBH4yp')">
+         </div>
+         <div class="absolute top-4 left-4">
+          <span class="px-2.5 py-1 rounded bg-surface/90 backdrop-blur text-primary font-label-md text-[11px] uppercase tracking-wider">
+           Lesser Sunda Islands
+          </span>
+         </div>
+         <div class="absolute bottom-4 left-4 right-4 text-surface-bright">
+          <span class="font-label-md text-[10px] tracking-widest uppercase opacity-80">
+           8.3405&deg; S, 115.0920&deg; E
+          </span>
+         </div>
+        </div>
+        <div class="p-6 flex flex-col flex-1 justify-between">
+         <div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal group-hover:text-tertiary transition-colors">
+           Bali
+          </h3>
+          <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+           Beyond the beaches &mdash; temples, villages, crafts, cuisine, wellness, and local life.
+          </p>
+         </div>
+         <div class="pt-6 mt-4 flex items-center justify-between">
+          <a class="font-label-md text-label-md uppercase tracking-wider text-secondary group-hover:text-primary transition-colors inline-flex items-center gap-1" href="/destinations/bali/" onclick="">
+           <span>
+            Explore Region
+           </span>
+           <span class="material-symbols-outlined notranslate text-[14px]" translate="no">
+            east
+           </span>
+          </a>
+          <span class="font-label-md text-[11px] text-tertiary">
+           14 Sanctuaries
+          </span>
+         </div>
+        </div>
+       </article>
+       <!-- 2. Yogyakarta -->
+       <article class="destination-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-name="Yogyakarta">
+        <div class="relative aspect-[4/5] overflow-hidden bg-surface-container">
+         <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Serene mist over volcanic landscape with traditional wooden outrigger boats docked on a placid volcanic lake, lush Javanese green hills and Mount Merapi distance in soft atmospheric mist" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCm33mURgO0guKtZ--P2MnJjH4gepibop4803u5eEpP1QHS4-Uj_kukHdFs-s7UE3zY04cuVDeu9oISIXkhsEnfFmIWX13uHgTtLrpOEI0QXaoxsn4SifL2DvAss9PiOxdmZLIEGGzJnEnAYHoLosRYL5eXFAAbApBGym99yM5kArtBOZui-pgoZRCoDjRbolEY51Mb4ggiKmmJYrYWj-AzhHZlo_fqHBHDj1R9cG8Z')">
+         </div>
+         <div class="absolute top-4 left-4">
+          <span class="px-2.5 py-1 rounded bg-surface/90 backdrop-blur text-primary font-label-md text-[11px] uppercase tracking-wider">
+           Central Java
+          </span>
+         </div>
+         <div class="absolute bottom-4 left-4 right-4 text-surface-bright">
+          <span class="font-label-md text-[10px] tracking-widest uppercase opacity-80">
+           7.7956&deg; S, 110.3695&deg; E
+          </span>
+         </div>
+        </div>
+        <div class="p-6 flex flex-col flex-1 justify-between">
+         <div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal group-hover:text-tertiary transition-colors">
+           Yogyakarta
+          </h3>
+          <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+           Heritage, art, traditional culture, batik, food, and creative communities.
+          </p>
+         </div>
+         <div class="pt-6 mt-4 flex items-center justify-between">
+          <a class="font-label-md text-label-md uppercase tracking-wider text-secondary group-hover:text-primary transition-colors inline-flex items-center gap-1" href="/destinations/yogyakarta/" onclick="">
+           <span>
+            Explore Region
+           </span>
+           <span class="material-symbols-outlined notranslate text-[14px]" translate="no">
+            east
+           </span>
+          </a>
+          <span class="font-label-md text-[11px] text-tertiary">
+           9 Royal Ateliers
+          </span>
+         </div>
+        </div>
+       </article>
+       <!-- 3. Jakarta -->
+       <article class="destination-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-name="Jakarta">
+        <div class="relative aspect-[4/5] overflow-hidden bg-surface-container">
+         <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Sleek modern Jakarta SCBD architectural skyline juxtaposed with historic Old Batavia Dutch colonial tile roof architecture, dramatic twilight glow, sophisticated contrast" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBhzoEZVglqgIj6S9-yFVkoQL-2SPH-fA1EM4rEtqDAsJvfRRKu54jkdOgg6xMKclhFKGahcxxdysLcQBSkjQJfiKsPIxqkTyfDJO3AOqkxU4HDt5exyOXipoPYf0ZA3tLhVwdrcGHNT6iXcys2y_UkXSA9pC1KCAbli7L0oGLBUG1wYzADW4UbEWh8e67e5XHpmfppzcwZF-t_ef1rSAfVkD7me_jCVT7uNQnrASL7')">
+         </div>
+         <div class="absolute top-4 left-4">
+          <span class="px-2.5 py-1 rounded bg-surface/90 backdrop-blur text-primary font-label-md text-[11px] uppercase tracking-wider">
+           Capital Territory
+          </span>
+         </div>
+         <div class="absolute bottom-4 left-4 right-4 text-surface-bright">
+          <span class="font-label-md text-[10px] tracking-widest uppercase opacity-80">
+           6.2088&deg; S, 106.8456&deg; E
+          </span>
+         </div>
+        </div>
+        <div class="p-6 flex flex-col flex-1 justify-between">
+         <div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal group-hover:text-tertiary transition-colors">
+           Jakarta
+          </h3>
+          <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+           A constantly evolving metropolis shaped by business, culture, history, and extraordinary diversity.
+          </p>
+         </div>
+         <div class="pt-6 mt-4 flex items-center justify-between">
+          <a class="font-label-md text-label-md uppercase tracking-wider text-secondary group-hover:text-primary transition-colors inline-flex items-center gap-1" href="/destinations/jakarta/" onclick="">
+           <span>
+            Explore Region
+           </span>
+           <span class="material-symbols-outlined notranslate text-[14px]" translate="no">
+            east
+           </span>
+          </a>
+          <span class="font-label-md text-[11px] text-tertiary">
+           Metropolitan Hub
+          </span>
+         </div>
+        </div>
+       </article>
+       <!-- 4. Lombok & The Gili Islands -->
+       <article class="destination-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-name="Lombok">
+        <div class="relative aspect-[4/5] overflow-hidden bg-surface-container">
+         <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Pristine white sand coastline of South Lombok with turquoise crystal clear sea water, volcanic cliffs, quiet fishing prahu on shore, warm natural tropical sunlight" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBweiqaCbxpv6k8LQ8daB2MMLqA0pp5EZg22hGgyVqAzzIeYBAEi1PbVkGwU25M8_mxTpm3gtgLt2euFNYk9FJMcNX3UdyQgXuv1RKEkNSlBOt1KTzzoPISYTHNihDxZwuNySYcuRj-Gjqq-DQD-QPLt1_1J3t4fQUO6vI3S1I6EE8n_CY1f-SYXPpF5CRLJ8fmCYu1L9jXUXqNVDc4C9DHoYc9ZL0iktvzzPktyGqm')">
+         </div>
+         <div class="absolute top-4 left-4">
+          <span class="px-2.5 py-1 rounded bg-surface/90 backdrop-blur text-primary font-label-md text-[11px] uppercase tracking-wider">
+           West Nusa Tenggara
+          </span>
+         </div>
+         <div class="absolute bottom-4 left-4 right-4 text-surface-bright">
+          <span class="font-label-md text-[10px] tracking-widest uppercase opacity-80">
+           8.6500&deg; S, 116.3249&deg; E
+          </span>
+         </div>
+        </div>
+        <div class="p-6 flex flex-col flex-1 justify-between">
+         <div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal group-hover:text-tertiary transition-colors">
+           Lombok &amp; Gili
+          </h3>
+          <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+           Island life, local communities, beaches, nature, and slower rhythms.
+          </p>
+         </div>
+         <div class="pt-6 mt-4 flex items-center justify-between">
+          <a class="font-label-md text-label-md uppercase tracking-wider text-secondary group-hover:text-primary transition-colors inline-flex items-center gap-1" href="/destinations/lombok-gili/" onclick="">
+           <span>
+            Explore Region
+           </span>
+           <span class="material-symbols-outlined notranslate text-[14px]" translate="no">
+            east
+           </span>
+          </a>
+          <span class="font-label-md text-[11px] text-tertiary">
+           Island Retreats
+          </span>
+         </div>
+        </div>
+       </article>
+       <!-- 5. Flores & Komodo -->
+       <article class="destination-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-name="Flores">
+        <div class="relative aspect-[4/5] overflow-hidden bg-surface-container">
+         <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Spectacular aerial view of Padar Island Komodo archipelago with curved pink and white sand bays, dramatic dry savanna hills, and traditional cruising Phinisi schooner on deep blue water" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC-GP-YczAFg9l6BUUzvbCmNN5ib6O7KP6eKvzvyi_29dGKobTNz5T4Vu0KTsK27DfnCfQ04YEdWg5Mxq-4o45HrCzTaZDMD_qD1y6ORuSZq0C5w_WEwIg0fM9ohkr9TaRBtILJrKliDEt-tVM6_0hEvpJE7GXEMvy0wx84uBWZ3Ujynu6t9TvbGvi-s_qA0q0IUZ2ngF-voYx_xZkNbcyGb2G4ekI54oDB_t_RHCCl')">
+         </div>
+         <div class="absolute top-4 left-4">
+          <span class="px-2.5 py-1 rounded bg-surface/90 backdrop-blur text-primary font-label-md text-[11px] uppercase tracking-wider">
+           East Nusa Tenggara
+          </span>
+         </div>
+         <div class="absolute bottom-4 left-4 right-4 text-surface-bright">
+          <span class="font-label-md text-[10px] tracking-widest uppercase opacity-80">
+           8.5369&deg; S, 119.8827&deg; E
+          </span>
+         </div>
+        </div>
+        <div class="p-6 flex flex-col flex-1 justify-between">
+         <div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal group-hover:text-tertiary transition-colors">
+           Flores &amp; Komodo
+          </h3>
+          <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+           Volcanic landscapes, island communities, marine life, and the legendary Komodo region.
+          </p>
+         </div>
+         <div class="pt-6 mt-4 flex items-center justify-between">
+          <a class="font-label-md text-label-md uppercase tracking-wider text-secondary group-hover:text-primary transition-colors inline-flex items-center gap-1" href="/destinations/komodo-flores/" onclick="">
+           <span>
+            Explore Region
+           </span>
+           <span class="material-symbols-outlined notranslate text-[14px]" translate="no">
+            east
+           </span>
+          </a>
+          <span class="font-label-md text-[11px] text-tertiary">
+           UNESCO Sanctuary
+          </span>
+         </div>
+        </div>
+       </article>
+       <!-- 6. Sumatra -->
+       <article class="destination-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-name="Sumatra">
+        <div class="relative aspect-[4/5] overflow-hidden bg-surface-container">
+         <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Mist shrouded highland coffee plantation in Gayo Takengon Sumatra with verdant deep green shade trees, lush hills, and distant Lake Toba volcanic crater ridge at dawn" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCcRLM7E6njsS04of1GAk8IkaSLaLWi0rjNHztg2hU9CpsN0IuqzUd0956tllTLYKLNbkuJ1oGF-7fQFtan9AqgKkI_JBrW0DDgi1MSuJ3A4rFJo7dCK2Me8XfzMrqBRSblQboyCcHgGD9WN1y0LlR0TTGByTLdaS33eqs_CcGBqrzvxrNeCMj7ig23b0ZjA8ppre5Qx681Pi8QHvhSWfeCxX6qbalQktCowRvYIcl8')">
+         </div>
+         <div class="absolute top-4 left-4">
+          <span class="px-2.5 py-1 rounded bg-surface/90 backdrop-blur text-primary font-label-md text-[11px] uppercase tracking-wider">
+           Western Archipelago
+          </span>
+         </div>
+         <div class="absolute bottom-4 left-4 right-4 text-surface-bright">
+          <span class="font-label-md text-[10px] tracking-widest uppercase opacity-80">
+           4.6295&deg; N, 96.8458&deg; E
+          </span>
+         </div>
+        </div>
+        <div class="p-6 flex flex-col flex-1 justify-between">
+         <div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal group-hover:text-tertiary transition-colors">
+           Sumatra
+          </h3>
+          <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+           Coffee, forests, wildlife, highlands, cultures, and some of Indonesia&rsquo;s most dramatic landscapes.
+          </p>
+         </div>
+         <div class="pt-6 mt-4 flex items-center justify-between">
+          <a class="font-label-md text-label-md uppercase tracking-wider text-secondary group-hover:text-primary transition-colors inline-flex items-center gap-1" href="/destinations/sumatra/" onclick="">
+           <span>
+            Explore Region
+           </span>
+           <span class="material-symbols-outlined notranslate text-[14px]" translate="no">
+            east
+           </span>
+          </a>
+          <span class="font-label-md text-[11px] text-tertiary">
+           Highland Origins
+          </span>
+         </div>
+        </div>
+       </article>
+       <!-- 7. Sulawesi -->
+       <article class="destination-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-name="Sulawesi">
+        <div class="relative aspect-[4/5] overflow-hidden bg-surface-container">
+         <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Traditional boat shaped ancestral Tongkonan house in Tana Toraja highlands surrounded by lush bamboo groves and limestone karst pinnacles, ceremonial carving motifs" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAVZGfMRN0md423DdTmSBFeP22wF-RBGAKwwqpHyN-UW5cHtV8vyxbZ_6s6XGum6GmDtdyUKoDf_fzz0p79CNo8vUAdX17_-ie2r0Ug3ee4AvFAOGR856LFZBj_v0LMi9UJ82c5XWarrO5svq1xaL_zAXwIovYlGTybPjuKmAah13te8nbVklE2p6V_wdMcF9yPGOG7SrQP0p9vmg8FXH7aymOMnYccl83YIQzFCOS_')">
+         </div>
+         <div class="absolute top-4 left-4">
+          <span class="px-2.5 py-1 rounded bg-surface/90 backdrop-blur text-primary font-label-md text-[11px] uppercase tracking-wider">
+           Central Archipelago
+          </span>
+         </div>
+         <div class="absolute bottom-4 left-4 right-4 text-surface-bright">
+          <span class="font-label-md text-[10px] tracking-widest uppercase opacity-80">
+           3.0519&deg; S, 119.8643&deg; E
+          </span>
+         </div>
+        </div>
+        <div class="p-6 flex flex-col flex-1 justify-between">
+         <div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal group-hover:text-tertiary transition-colors">
+           Sulawesi
+          </h3>
+          <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+           Distinctive cultures, marine environments, mountains, and deeply rooted traditions.
+          </p>
+         </div>
+         <div class="pt-6 mt-4 flex items-center justify-between">
+          <a class="font-label-md text-label-md uppercase tracking-wider text-secondary group-hover:text-primary transition-colors inline-flex items-center gap-1" href="/destinations/sulawesi/" onclick="">
+           <span>
+            Explore Region
+           </span>
+           <span class="material-symbols-outlined notranslate text-[14px]" translate="no">
+            east
+           </span>
+          </a>
+          <span class="font-label-md text-[11px] text-tertiary">
+           Ancestral Realms
+          </span>
+         </div>
+        </div>
+       </article>
+       <!-- 8. Raja Ampat -->
+       <article class="destination-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-name="Raja Ampat">
+        <div class="relative aspect-[4/5] overflow-hidden bg-surface-container">
+         <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Breathtaking limestone karst mushroom islets of Wayag in Raja Ampat surrounded by vibrant electric turquoise lagoons and vibrant coral reefs beneath calm water, aerial view" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCgXYT-aPIAL2QjOOp7M-p0Vaf9Dmd2J1SSM4CZMtoq1PBhpgGSYmJMNNWQJJFRHsCyLW4d6IjBIOB2w5iPaJcBc0feM13QiEpXYCs1mghSQuBGKHn0ILukP7e7FSiPMNssDtwGz6VL3JOdt28K7hSa__g0vCxQ573z8UYUsZZkZvky0mnNzRAd6NQT1WsciMdNwrDJVFIHXmxCMz1IawFHXG2MwKjzAKOaWNDJ1etE')">
+         </div>
+         <div class="absolute top-4 left-4">
+          <span class="px-2.5 py-1 rounded bg-surface/90 backdrop-blur text-primary font-label-md text-[11px] uppercase tracking-wider">
+           West Papua
+          </span>
+         </div>
+         <div class="absolute bottom-4 left-4 right-4 text-surface-bright">
+          <span class="font-label-md text-[10px] tracking-widest uppercase opacity-80">
+           0.2344&deg; S, 130.5186&deg; E
+          </span>
+         </div>
+        </div>
+        <div class="p-6 flex flex-col flex-1 justify-between">
+         <div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal group-hover:text-tertiary transition-colors">
+           Raja Ampat
+          </h3>
+          <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+           Remote islands, extraordinary marine ecosystems, and communities connected to the sea.
+          </p>
+         </div>
+         <div class="pt-6 mt-4 flex items-center justify-between">
+          <a class="font-label-md text-label-md uppercase tracking-wider text-secondary group-hover:text-primary transition-colors inline-flex items-center gap-1" href="/destinations/raja-ampat/" onclick="">
+           <span>
+            Explore Region
+           </span>
+           <span class="material-symbols-outlined notranslate text-[14px]" translate="no">
+            east
+           </span>
+          </a>
+          <span class="font-label-md text-[11px] text-tertiary">
+           Marine Epicenter
+          </span>
+         </div>
+        </div>
+       </article>
+      </div>
+     </div>
+    </section>
+    <section class="w-full bg-surface py-20 lg:py-28" id="native-calendar">
+     <div class="max-w-7xl mx-auto px-6 lg:px-12">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
+       <div>
+        <span class="font-label-md text-label-md uppercase tracking-widest text-tertiary">
+         NATIVE CALENDAR
+        </span>
+        <h2 class="font-display-lg text-4xl lg:text-5xl text-primary font-normal tracking-tight mt-2">
+         Now Worth Exploring
+        </h2>
+        <p class="font-body-lg text-on-surface-variant text-base mt-2">
+         Dynamic seasonal recommendations curated by our native field coordinators.
+        </p>
+       </div>
+       <div class="flex items-center gap-2 text-xs font-label-md text-tertiary">
+        <span class="material-symbols-outlined notranslate text-sm" translate="no">
+         calendar_month
+        </span>
+        <span>
+         Current Equatorial Cycle: Q1 / Q2
+        </span>
+       </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" id="season-grid">
+       <article class="vl-reveal-card season-card" data-season-index="0" onclick="openExperienceDetail('season',0)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openExperienceDetail('season',0)}" role="button" tabindex="0">
+        <div class="vl-card-media">
+         <img alt="Rainforest Season &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/highlands.png"/>
+        </div>
+        <div class="p-6 flex flex-col h-full">
+         <div class="flex items-center justify-between text-xs font-label-md text-tertiary mb-2">
+          <span>
+           Highland Season
+          </span>
+          <span>
+           West &amp; Central
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl text-primary font-normal">
+          Rainforest Season
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+          Discover Indonesia&rsquo;s lush emerald interior landscapes and mist-shrouded volcanic valleys when waterfalls and rivers run in full majesty.
+         </p>
+         <div class="mt-auto pt-5 text-xs font-label-md uppercase tracking-wider text-secondary">
+          Open seasonal experience &rarr;
+         </div>
+        </div>
+       </article>
+       <article class="vl-reveal-card season-card" data-season-index="1" onclick="openExperienceDetail('season',1)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openExperienceDetail('season',1)}" role="button" tabindex="0">
+        <div class="vl-card-media">
+         <img alt="Coffee Harvest &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/rice.png"/>
+        </div>
+        <div class="p-6 flex flex-col h-full">
+         <div class="flex items-center justify-between text-xs font-label-md text-tertiary mb-2">
+          <span>
+           Origin Harvest
+          </span>
+          <span>
+           Sumatra &amp; Java
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl text-primary font-normal">
+          Coffee Harvest
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+          Meet cooperative producers and experience harvest origins in northern Sumatra and Java. Witness wet-hulling and taste freshly processed lots.
+         </p>
+         <div class="mt-auto pt-5 text-xs font-label-md uppercase tracking-wider text-secondary">
+          Open seasonal experience &rarr;
+         </div>
+        </div>
+       </article>
+       <article class="vl-reveal-card season-card" data-season-index="2" onclick="openExperienceDetail('season',2)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openExperienceDetail('season',2)}" role="button" tabindex="0">
+        <div class="vl-card-media">
+         <img alt="Island Season &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/maritime.png"/>
+        </div>
+        <div class="p-6 flex flex-col h-full">
+         <div class="flex items-center justify-between text-xs font-label-md text-tertiary mb-2">
+          <span>
+           Maritime Passage
+          </span>
+          <span>
+           Eastern Sea
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl text-primary font-normal">
+          Island Season
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+          Explore pristine outer archipelagos, calm equatorial seas, and secluded coastal communities with optimum water clarity and gentle trades.
+         </p>
+         <div class="mt-auto pt-5 text-xs font-label-md uppercase tracking-wider text-secondary">
+          Open seasonal experience &rarr;
+         </div>
+        </div>
+       </article>
+       <article class="vl-reveal-card season-card" data-season-index="3" onclick="openExperienceDetail('season',3)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openExperienceDetail('season',3)}" role="button" tabindex="0">
+        <div class="vl-card-media">
+         <img alt="Heritage Season &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/artisan.png"/>
+        </div>
+        <div class="p-6 flex flex-col h-full">
+         <div class="flex items-center justify-between text-xs font-label-md text-tertiary mb-2">
+          <span>
+           Living Heritage
+          </span>
+          <span>
+           Java &amp; Bali
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl text-primary font-normal">
+          Heritage Season
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+          Travel through royal cities, ancestral compounds and living craft traditions when cultural calendars favour longer, slower encounters.
+         </p>
+         <div class="mt-auto pt-5 text-xs font-label-md uppercase tracking-wider text-secondary">
+          Open seasonal experience &rarr;
+         </div>
+        </div>
+       </article>
+       <article class="vl-reveal-card season-card season-hidden" data-season-index="4" onclick="openExperienceDetail('season',4)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openExperienceDetail('season',4)}" role="button" tabindex="0">
+        <div class="vl-card-media">
+         <img alt="Spice &amp; Market Season &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/maritime.png"/>
+        </div>
+        <div class="p-6 flex flex-col h-full">
+         <div class="flex items-center justify-between text-xs font-label-md text-tertiary mb-2">
+          <span>
+           Trade Routes
+          </span>
+          <span>
+           Maluku &amp; Sulawesi
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl text-primary font-normal">
+          Spice &amp; Market Season
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+          Follow Indonesia&rsquo;s old spice corridors through markets, coastal communities and kitchens where trade history still shapes daily life.
+         </p>
+         <div class="mt-auto pt-5 text-xs font-label-md uppercase tracking-wider text-secondary">
+          Open seasonal experience &rarr;
+         </div>
+        </div>
+       </article>
+       <article class="vl-reveal-card season-card season-hidden" data-season-index="5" onclick="openExperienceDetail('season',5)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openExperienceDetail('season',5)}" role="button" tabindex="0">
+        <div class="vl-card-media">
+         <img alt="Volcanic Highlands &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/highlands.png"/>
+        </div>
+        <div class="p-6 flex flex-col h-full">
+         <div class="flex items-center justify-between text-xs font-label-md text-tertiary mb-2">
+          <span>
+           Highland Window
+          </span>
+          <span>
+           Java &amp; Sumatra
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl text-primary font-normal">
+          Volcanic Highlands
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+          Climb into cooler volcanic landscapes for mountain dawns, tea and coffee origins, terraced agriculture and local highland life.
+         </p>
+         <div class="mt-auto pt-5 text-xs font-label-md uppercase tracking-wider text-secondary">
+          Open seasonal experience &rarr;
+         </div>
+        </div>
+       </article>
+       <article class="vl-reveal-card season-card season-hidden" data-season-index="6" onclick="openExperienceDetail('season',6)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openExperienceDetail('season',6)}" role="button" tabindex="0">
+        <div class="vl-card-media">
+         <img alt="Wildlife Passage &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/highlands.png"/>
+        </div>
+        <div class="p-6 flex flex-col h-full">
+         <div class="flex items-center justify-between text-xs font-label-md text-tertiary mb-2">
+          <span>
+           Field Season
+          </span>
+          <span>
+           Sumatra &amp; Eastern Indonesia
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl text-primary font-normal">
+          Wildlife Passage
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+          Enter Indonesia&rsquo;s forest and marine habitats with conservation-minded field hosts and carefully timed wildlife encounters.
+         </p>
+         <div class="mt-auto pt-5 text-xs font-label-md uppercase tracking-wider text-secondary">
+          Open seasonal experience &rarr;
+         </div>
+        </div>
+       </article>
+       <article class="vl-reveal-card season-card season-hidden" data-season-index="7" onclick="openExperienceDetail('season',7)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openExperienceDetail('season',7)}" role="button" tabindex="0">
+        <div class="vl-card-media">
+         <img alt="Wellness &amp; Jamu &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/rice.png"/>
+        </div>
+        <div class="p-6 flex flex-col h-full">
+         <div class="flex items-center justify-between text-xs font-label-md text-tertiary mb-2">
+          <span>
+           Restoration Cycle
+          </span>
+          <span>
+           Java &amp; Bali
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl text-primary font-normal">
+          Wellness &amp; Jamu
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+          Slow down through traditional wellness practices, plant knowledge, sacred water landscapes and restorative rural stays.
+         </p>
+         <div class="mt-auto pt-5 text-xs font-label-md uppercase tracking-wider text-secondary">
+          Open seasonal experience &rarr;
+         </div>
+        </div>
+       </article>
+       <article class="vl-reveal-card season-card season-hidden" data-season-index="8" onclick="openExperienceDetail('season',8)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openExperienceDetail('season',8)}" role="button" tabindex="0">
+        <div class="vl-card-media">
+         <img alt="Coffee &amp; Cacao Origins &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/artisan.png"/>
+        </div>
+        <div class="p-6 flex flex-col h-full">
+         <div class="flex items-center justify-between text-xs font-label-md text-tertiary mb-2">
+          <span>
+           Origin Field Season
+          </span>
+          <span>
+           Java &amp; Sulawesi
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl text-primary font-normal">
+          Coffee &amp; Cacao Origins
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+          Trace two Indonesian origin stories from cultivated landscapes to fermentation, processing and careful tasting with producers.
+         </p>
+         <div class="mt-auto pt-5 text-xs font-label-md uppercase tracking-wider text-secondary">
+          Open seasonal experience &rarr;
+         </div>
+        </div>
+       </article>
+       <article class="vl-reveal-card season-card season-hidden" data-season-index="9" onclick="openExperienceDetail('season',9)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openExperienceDetail('season',9)}" role="button" tabindex="0">
+        <div class="vl-card-media">
+         <img alt="Agricultural Harvest &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/rice.png"/>
+        </div>
+        <div class="p-6 flex flex-col h-full">
+         <div class="flex items-center justify-between text-xs font-label-md text-tertiary mb-2">
+          <span>
+           Harvest Cycle
+          </span>
+          <span>
+           Java &amp; Bali
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl text-primary font-normal">
+          Agricultural Harvest
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-2 leading-relaxed">
+          Meet growers during active harvest windows and understand how landscapes, water, labour and food traditions connect.
+         </p>
+         <div class="mt-auto pt-5 text-xs font-label-md uppercase tracking-wider text-secondary">
+          Open seasonal experience &rarr;
+         </div>
+        </div>
+       </article>
+      </div>
+      <div class="pt-8 text-center">
+       <button class="inline-flex items-center gap-2 px-8 py-4 rounded bg-surface-container text-primary hover:bg-primary hover:text-on-primary font-label-md text-label-md uppercase tracking-wider transition-all duration-300 shadow-sm" id="season-show-more" onclick="toggleSeasonalChoices()" type="button">
+        Show More Seasonal Recommendations
+        <span class="material-symbols-outlined notranslate text-base" translate="no">
+         expand_more
+        </span>
+       </button>
+      </div>
+     </div>
+    </section>
+    <!-- 3. CURATED JOURNEYS (MULTI-DAY ROUTES LEDGER) -->
+    <section class="w-full bg-surface-container-low py-20 lg:py-28" id="curated-journeys">
+     <div class="max-w-7xl mx-auto px-6 lg:px-12">
+      <div class="max-w-3xl mb-16">
+       <span class="font-label-md text-label-md uppercase tracking-widest text-tertiary">
+        Archipelagic Itinerary Ledgers
+       </span>
+       <h2 class="font-display-lg text-4xl lg:text-5xl text-primary font-normal tracking-tight mt-2">
+        Curated Journeys
+       </h2>
+       <p class="font-body-lg text-on-surface-variant text-base mt-3 leading-relaxed">
+        Thoughtfully designed routes that bring together places, people, experiences, and time to slow down.
+       </p>
+      </div>
+      <div class="space-y-6" id="ledger-grid">
+       <article class="vl-ledger-card bg-surface-container-lowest rounded-xl p-6 lg:p-8 shadow-sm hover:shadow-md transition-shadow" data-ledger-index="0">
+        <div class="vl-card-media vl-ledger-media">
+         <img alt="Java Heritage Journey &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/artisan.png"/>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+         <div class="lg:col-span-3">
+          <div class="flex items-center gap-2 mb-2">
+           <span class="px-2.5 py-1 rounded bg-surface-container-highest text-primary font-label-md text-[11px] uppercase tracking-wider">
+            7 Days &middot; 6 Nights
+           </span>
+          </div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal">
+           Java Heritage Journey
+          </h3>
+          <p class="font-label-md text-xs text-on-surface-variant mt-1">
+           Jakarta &rarr; Yogyakarta &rarr; Central Java
+          </p>
+         </div>
+         <div class="lg:col-span-6">
+          <p class="font-body-lg text-sm text-on-surface-variant leading-relaxed">
+           Private access to royal batik ateliers, dawn at Borobudur, and culinary trails through ancient Javanese court kitchens.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Curated
+           </span>
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Local Access
+           </span>
+          </div>
+         </div>
+         <div class="lg:col-span-3 flex flex-col sm:flex-row lg:flex-col items-start lg:items-end justify-between gap-4">
+          <div class="text-left lg:text-right">
+           <span class="block text-xs font-label-md text-on-surface-variant">
+            Ledger Reference
+           </span>
+           <span class="font-mono text-xs text-primary font-bold">
+            VL-01-IT
+           </span>
+          </div>
+          <button class="px-5 py-2.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-colors" onclick="openExperienceDetail('itinerary',0)">
+           View Archipelagic Itinerary
+          </button>
+         </div>
+        </div>
+       </article>
+       <article class="vl-ledger-card bg-surface-container-lowest rounded-xl p-6 lg:p-8 shadow-sm hover:shadow-md transition-shadow" data-ledger-index="1">
+        <div class="vl-card-media vl-ledger-media">
+         <img alt="Bali Beyond Ordinary &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/rice.png"/>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+         <div class="lg:col-span-3">
+          <div class="flex items-center gap-2 mb-2">
+           <span class="px-2.5 py-1 rounded bg-surface-container-highest text-primary font-label-md text-[11px] uppercase tracking-wider">
+            6 Days &middot; 5 Nights
+           </span>
+          </div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal">
+           Bali Beyond Ordinary
+          </h3>
+          <p class="font-label-md text-xs text-on-surface-variant mt-1">
+           Ubud &rarr; Sidemen &rarr; East Bali
+          </p>
+         </div>
+         <div class="lg:col-span-6">
+          <p class="font-body-lg text-sm text-on-surface-variant leading-relaxed">
+           Sidemen valley farm harvest, master healer consultations, and sequestered artisan retreats far outside tourist corridors.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Curated
+           </span>
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Local Access
+           </span>
+          </div>
+         </div>
+         <div class="lg:col-span-3 flex flex-col sm:flex-row lg:flex-col items-start lg:items-end justify-between gap-4">
+          <div class="text-left lg:text-right">
+           <span class="block text-xs font-label-md text-on-surface-variant">
+            Ledger Reference
+           </span>
+           <span class="font-mono text-xs text-primary font-bold">
+            VL-02-IT
+           </span>
+          </div>
+          <button class="px-5 py-2.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-colors" onclick="openExperienceDetail('itinerary',1)">
+           View Archipelagic Itinerary
+          </button>
+         </div>
+        </div>
+       </article>
+       <article class="vl-ledger-card bg-surface-container-lowest rounded-xl p-6 lg:p-8 shadow-sm hover:shadow-md transition-shadow" data-ledger-index="2">
+        <div class="vl-card-media vl-ledger-media">
+         <img alt="Komodo Maritime &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/maritime.png"/>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+         <div class="lg:col-span-3">
+          <div class="flex items-center gap-2 mb-2">
+           <span class="px-2.5 py-1 rounded bg-surface-container-highest text-primary font-label-md text-[11px] uppercase tracking-wider">
+            7 Days &middot; 6 Nights
+           </span>
+          </div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal">
+           Komodo Maritime
+          </h3>
+          <p class="font-label-md text-xs text-on-surface-variant mt-1">
+           Labuan Bajo &rarr; Komodo &rarr; Outer Islands
+          </p>
+         </div>
+         <div class="lg:col-span-6">
+          <p class="font-body-lg text-sm text-on-surface-variant leading-relaxed">
+           Traditional wooden Phinisi voyage across marine reserves, pink sand atolls and native ranger walks.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Curated
+           </span>
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Local Access
+           </span>
+          </div>
+         </div>
+         <div class="lg:col-span-3 flex flex-col sm:flex-row lg:flex-col items-start lg:items-end justify-between gap-4">
+          <div class="text-left lg:text-right">
+           <span class="block text-xs font-label-md text-on-surface-variant">
+            Ledger Reference
+           </span>
+           <span class="font-mono text-xs text-primary font-bold">
+            VL-03-IT
+           </span>
+          </div>
+          <button class="px-5 py-2.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-colors" onclick="openExperienceDetail('itinerary',2)">
+           View Archipelagic Itinerary
+          </button>
+         </div>
+        </div>
+       </article>
+       <article class="vl-ledger-card bg-surface-container-lowest rounded-xl p-6 lg:p-8 shadow-sm hover:shadow-md transition-shadow" data-ledger-index="3">
+        <div class="vl-card-media vl-ledger-media">
+         <img alt="Sumatra Highlands &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/highlands.png"/>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+         <div class="lg:col-span-3">
+          <div class="flex items-center gap-2 mb-2">
+           <span class="px-2.5 py-1 rounded bg-surface-container-highest text-primary font-label-md text-[11px] uppercase tracking-wider">
+            8 Days &middot; 7 Nights
+           </span>
+          </div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal">
+           Sumatra Highlands
+          </h3>
+          <p class="font-label-md text-xs text-on-surface-variant mt-1">
+           Medan &rarr; Lake Toba &rarr; Aceh Gayo
+          </p>
+         </div>
+         <div class="lg:col-span-6">
+          <p class="font-body-lg text-sm text-on-surface-variant leading-relaxed">
+           1,600m agroforestry cooperatives, single-origin cupping and Batak heritage along volcanic Lake Toba.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Curated
+           </span>
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Local Access
+           </span>
+          </div>
+         </div>
+         <div class="lg:col-span-3 flex flex-col sm:flex-row lg:flex-col items-start lg:items-end justify-between gap-4">
+          <div class="text-left lg:text-right">
+           <span class="block text-xs font-label-md text-on-surface-variant">
+            Ledger Reference
+           </span>
+           <span class="font-mono text-xs text-primary font-bold">
+            VL-04-IT
+           </span>
+          </div>
+          <button class="px-5 py-2.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-colors" onclick="openExperienceDetail('itinerary',3)">
+           View Archipelagic Itinerary
+          </button>
+         </div>
+        </div>
+       </article>
+       <article class="vl-ledger-card bg-surface-container-lowest rounded-xl p-6 lg:p-8 shadow-sm hover:shadow-md transition-shadow" data-ledger-index="4">
+        <div class="vl-card-media vl-ledger-media">
+         <img alt="Sulawesi Ancestral Heritage &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/highlands.png"/>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+         <div class="lg:col-span-3">
+          <div class="flex items-center gap-2 mb-2">
+           <span class="px-2.5 py-1 rounded bg-surface-container-highest text-primary font-label-md text-[11px] uppercase tracking-wider">
+            5 Days &middot; 4 Nights
+           </span>
+          </div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal">
+           Sulawesi Ancestral Heritage
+          </h3>
+          <p class="font-label-md text-xs text-on-surface-variant mt-1">
+           Makassar &rarr; Tana Toraja
+          </p>
+         </div>
+         <div class="lg:col-span-6">
+          <p class="font-body-lg text-sm text-on-surface-variant leading-relaxed">
+           Private Torajan cultural liaison, mountain compound hospitality, and ritual observation protocol.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Curated
+           </span>
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Local Access
+           </span>
+          </div>
+         </div>
+         <div class="lg:col-span-3 flex flex-col sm:flex-row lg:flex-col items-start lg:items-end justify-between gap-4">
+          <div class="text-left lg:text-right">
+           <span class="block text-xs font-label-md text-on-surface-variant">
+            Ledger Reference
+           </span>
+           <span class="font-mono text-xs text-primary font-bold">
+            VL-05-IT
+           </span>
+          </div>
+          <button class="px-5 py-2.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-colors" onclick="openExperienceDetail('itinerary',4)">
+           View Archipelagic Itinerary
+          </button>
+         </div>
+        </div>
+       </article>
+       <article class="vl-ledger-card bg-surface-container-lowest rounded-xl p-6 lg:p-8 shadow-sm hover:shadow-md transition-shadow itinerary-hidden" data-ledger-index="5">
+        <div class="vl-card-media vl-ledger-media">
+         <img alt="Raja Ampat Blue Passage &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/maritime.png"/>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+         <div class="lg:col-span-3">
+          <div class="flex items-center gap-2 mb-2">
+           <span class="px-2.5 py-1 rounded bg-surface-container-highest text-primary font-label-md text-[11px] uppercase tracking-wider">
+            6 Days &middot; 5 Nights
+           </span>
+          </div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal">
+           Raja Ampat Blue Passage
+          </h3>
+          <p class="font-label-md text-xs text-on-surface-variant mt-1">
+           Sorong &rarr; Raja Ampat &rarr; Outer Islands
+          </p>
+         </div>
+         <div class="lg:col-span-6">
+          <p class="font-body-lg text-sm text-on-surface-variant leading-relaxed">
+           A quiet marine passage combining reef time, village hospitality, conservation context and private island anchorage.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Curated
+           </span>
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Local Access
+           </span>
+          </div>
+         </div>
+         <div class="lg:col-span-3 flex flex-col sm:flex-row lg:flex-col items-start lg:items-end justify-between gap-4">
+          <div class="text-left lg:text-right">
+           <span class="block text-xs font-label-md text-on-surface-variant">
+            Ledger Reference
+           </span>
+           <span class="font-mono text-xs text-primary font-bold">
+            VL-06-IT
+           </span>
+          </div>
+          <button class="px-5 py-2.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-colors" onclick="openExperienceDetail('itinerary',5)">
+           View Archipelagic Itinerary
+          </button>
+         </div>
+        </div>
+       </article>
+       <article class="vl-ledger-card bg-surface-container-lowest rounded-xl p-6 lg:p-8 shadow-sm hover:shadow-md transition-shadow itinerary-hidden" data-ledger-index="6">
+        <div class="vl-card-media vl-ledger-media">
+         <img alt="Java Craft &amp; Culinary Route &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/artisan.png"/>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+         <div class="lg:col-span-3">
+          <div class="flex items-center gap-2 mb-2">
+           <span class="px-2.5 py-1 rounded bg-surface-container-highest text-primary font-label-md text-[11px] uppercase tracking-wider">
+            5 Days &middot; 4 Nights
+           </span>
+          </div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal">
+           Java Craft &amp; Culinary Route
+          </h3>
+          <p class="font-label-md text-xs text-on-surface-variant mt-1">
+           Yogyakarta &rarr; Solo &rarr; Central Java
+          </p>
+         </div>
+         <div class="lg:col-span-6">
+          <p class="font-body-lg text-sm text-on-surface-variant leading-relaxed">
+           Move through batik, ceramics, traditional kitchens and market culture with direct artisan introductions.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Curated
+           </span>
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Local Access
+           </span>
+          </div>
+         </div>
+         <div class="lg:col-span-3 flex flex-col sm:flex-row lg:flex-col items-start lg:items-end justify-between gap-4">
+          <div class="text-left lg:text-right">
+           <span class="block text-xs font-label-md text-on-surface-variant">
+            Ledger Reference
+           </span>
+           <span class="font-mono text-xs text-primary font-bold">
+            VL-07-IT
+           </span>
+          </div>
+          <button class="px-5 py-2.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-colors" onclick="openExperienceDetail('itinerary',6)">
+           View Archipelagic Itinerary
+          </button>
+         </div>
+        </div>
+       </article>
+       <article class="vl-ledger-card bg-surface-container-lowest rounded-xl p-6 lg:p-8 shadow-sm hover:shadow-md transition-shadow itinerary-hidden" data-ledger-index="7">
+        <div class="vl-card-media vl-ledger-media">
+         <img alt="Eastern Spice Passage &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/maritime.png"/>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+         <div class="lg:col-span-3">
+          <div class="flex items-center gap-2 mb-2">
+           <span class="px-2.5 py-1 rounded bg-surface-container-highest text-primary font-label-md text-[11px] uppercase tracking-wider">
+            6 Days &middot; 5 Nights
+           </span>
+          </div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal">
+           Eastern Spice Passage
+          </h3>
+          <p class="font-label-md text-xs text-on-surface-variant mt-1">
+           Makassar &rarr; Maluku
+          </p>
+         </div>
+         <div class="lg:col-span-6">
+          <p class="font-body-lg text-sm text-on-surface-variant leading-relaxed">
+           Follow old maritime trade routes through spice gardens, markets, coastal communities and family kitchens.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Curated
+           </span>
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Local Access
+           </span>
+          </div>
+         </div>
+         <div class="lg:col-span-3 flex flex-col sm:flex-row lg:flex-col items-start lg:items-end justify-between gap-4">
+          <div class="text-left lg:text-right">
+           <span class="block text-xs font-label-md text-on-surface-variant">
+            Ledger Reference
+           </span>
+           <span class="font-mono text-xs text-primary font-bold">
+            VL-08-IT
+           </span>
+          </div>
+          <button class="px-5 py-2.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-colors" onclick="openExperienceDetail('itinerary',7)">
+           View Archipelagic Itinerary
+          </button>
+         </div>
+        </div>
+       </article>
+       <article class="vl-ledger-card bg-surface-container-lowest rounded-xl p-6 lg:p-8 shadow-sm hover:shadow-md transition-shadow itinerary-hidden" data-ledger-index="8">
+        <div class="vl-card-media vl-ledger-media">
+         <img alt="Flores Highlands &amp; Villages &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/highlands.png"/>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+         <div class="lg:col-span-3">
+          <div class="flex items-center gap-2 mb-2">
+           <span class="px-2.5 py-1 rounded bg-surface-container-highest text-primary font-label-md text-[11px] uppercase tracking-wider">
+            5 Days &middot; 4 Nights
+           </span>
+          </div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal">
+           Flores Highlands &amp; Villages
+          </h3>
+          <p class="font-label-md text-xs text-on-surface-variant mt-1">
+           Labuan Bajo &rarr; Flores Highlands
+          </p>
+         </div>
+         <div class="lg:col-span-6">
+          <p class="font-body-lg text-sm text-on-surface-variant leading-relaxed">
+           Travel beyond the coast into highland villages, weaving traditions, coffee landscapes and local foodways.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Curated
+           </span>
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Local Access
+           </span>
+          </div>
+         </div>
+         <div class="lg:col-span-3 flex flex-col sm:flex-row lg:flex-col items-start lg:items-end justify-between gap-4">
+          <div class="text-left lg:text-right">
+           <span class="block text-xs font-label-md text-on-surface-variant">
+            Ledger Reference
+           </span>
+           <span class="font-mono text-xs text-primary font-bold">
+            VL-09-IT
+           </span>
+          </div>
+          <button class="px-5 py-2.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-colors" onclick="openExperienceDetail('itinerary',8)">
+           View Archipelagic Itinerary
+          </button>
+         </div>
+        </div>
+       </article>
+       <article class="vl-ledger-card bg-surface-container-lowest rounded-xl p-6 lg:p-8 shadow-sm hover:shadow-md transition-shadow itinerary-hidden" data-ledger-index="9">
+        <div class="vl-card-media vl-ledger-media">
+         <img alt="Jamu &amp; Sacred Water Retreat &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/rice.png"/>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+         <div class="lg:col-span-3">
+          <div class="flex items-center gap-2 mb-2">
+           <span class="px-2.5 py-1 rounded bg-surface-container-highest text-primary font-label-md text-[11px] uppercase tracking-wider">
+            4 Days &middot; 3 Nights
+           </span>
+          </div>
+          <h3 class="font-display-lg text-2xl text-primary font-normal">
+           Jamu &amp; Sacred Water Retreat
+          </h3>
+          <p class="font-label-md text-xs text-on-surface-variant mt-1">
+           Yogyakarta &rarr; Central Java
+          </p>
+         </div>
+         <div class="lg:col-span-6">
+          <p class="font-body-lg text-sm text-on-surface-variant leading-relaxed">
+           A restorative journey into Javanese plant knowledge, jamu traditions, sacred-water landscapes and slow rural life.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Curated
+           </span>
+           <span class="text-[11px] font-label-md px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+            Local Access
+           </span>
+          </div>
+         </div>
+         <div class="lg:col-span-3 flex flex-col sm:flex-row lg:flex-col items-start lg:items-end justify-between gap-4">
+          <div class="text-left lg:text-right">
+           <span class="block text-xs font-label-md text-on-surface-variant">
+            Ledger Reference
+           </span>
+           <span class="font-mono text-xs text-primary font-bold">
+            VL-10-IT
+           </span>
+          </div>
+          <button class="px-5 py-2.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-colors" onclick="openExperienceDetail('itinerary',9)">
+           View Archipelagic Itinerary
+          </button>
+         </div>
+        </div>
+       </article>
+      </div>
+      <div class="pt-8 text-center">
+       <button class="inline-flex items-center gap-2 px-8 py-4 rounded bg-surface-container text-primary hover:bg-primary hover:text-on-primary font-label-md text-label-md uppercase tracking-wider transition-all duration-300 shadow-sm" id="itinerary-show-more" onclick="toggleItineraries()" type="button">
+        Show more curated journeys
+        <span class="material-symbols-outlined notranslate text-base" translate="no">
+         expand_more
+        </span>
+       </button>
+      </div>
+     </div>
+    </section>
+    <!-- 4. EXPERIENCE CATEGORIES (CHOOSE YOUR KIND OF JOURNEY) -->
+    <section class="w-full bg-surface py-20 lg:py-28">
+     <div class="max-w-7xl mx-auto px-6 lg:px-12">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+       <span class="font-label-md text-label-md uppercase tracking-widest text-tertiary">
+        ARCHIPELAGIC PASSIONS
+       </span>
+       <h2 class="font-display-lg text-4xl lg:text-5xl text-primary font-normal tracking-tight mt-2">
+        Choose Your Kind of Journey
+       </h2>
+       <p class="font-body-lg text-on-surface-variant text-base mt-3">
+        Discover how individual passions seamlessly connect into cohesive archipelagic voyages.
+       </p>
+      </div>
+      <!-- Category Tiles -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6">
+       <!-- 1 -->
+       <a class="group bg-surface-container-low hover:bg-surface-container p-6 rounded-xl flex flex-col items-start justify-between min-h-[160px] transition-all" href="#custom-planner" onclick="selectPassionAndScroll('Culture &amp; Heritage')">
+        <div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+         <span class="material-symbols-outlined notranslate text-2xl" translate="no">
+          account_balance
+         </span>
+        </div>
+        <div>
+         <h4 class="font-display-lg text-xl text-primary font-normal">
+          Culture &amp; Heritage
+         </h4>
+         <span class="font-label-md text-[11px] text-tertiary">
+          32 Journeys
+         </span>
+        </div>
+       </a>
+       <!-- 2 -->
+       <a class="group bg-surface-container-low hover:bg-surface-container p-6 rounded-xl flex flex-col items-start justify-between min-h-[160px] transition-all" href="#custom-planner" onclick="selectPassionAndScroll('Nature &amp; Adventure')">
+        <div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+         <span class="material-symbols-outlined notranslate text-2xl" translate="no">
+          hiking
+         </span>
+        </div>
+        <div>
+         <h4 class="font-display-lg text-xl text-primary font-normal">
+          Nature &amp; Adventure
+         </h4>
+         <span class="font-label-md text-[11px] text-tertiary">
+          24 Journeys
+         </span>
+        </div>
+       </a>
+       <!-- 3 -->
+       <a class="group bg-surface-container-low hover:bg-surface-container p-6 rounded-xl flex flex-col items-start justify-between min-h-[160px] transition-all" href="#custom-planner" onclick="selectPassionAndScroll('Food &amp; Culinary')">
+        <div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+         <span class="material-symbols-outlined notranslate text-2xl" translate="no">
+          restaurant
+         </span>
+        </div>
+        <div>
+         <h4 class="font-display-lg text-xl text-primary font-normal">
+          Food &amp; Culinary
+         </h4>
+         <span class="font-label-md text-[11px] text-tertiary">
+          19 Trails
+         </span>
+        </div>
+       </a>
+       <!-- 4 -->
+       <a class="group bg-surface-container-low hover:bg-surface-container p-6 rounded-xl flex flex-col items-start justify-between min-h-[160px] transition-all" href="#custom-planner" onclick="selectPassionAndScroll('Island Escapes')">
+        <div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+         <span class="material-symbols-outlined notranslate text-2xl" translate="no">
+          sailing
+         </span>
+        </div>
+        <div>
+         <h4 class="font-display-lg text-xl text-primary font-normal">
+          Island Escapes
+         </h4>
+         <span class="font-label-md text-[11px] text-tertiary">
+          15 Archipelagos
+         </span>
+        </div>
+       </a>
+       <!-- 5 -->
+       <a class="group bg-surface-container-low hover:bg-surface-container p-6 rounded-xl flex flex-col items-start justify-between min-h-[160px] transition-all" href="#custom-planner" onclick="selectPassionAndScroll('Wellness &amp; Slow')">
+        <div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+         <span class="material-symbols-outlined notranslate text-2xl" translate="no">
+          spa
+         </span>
+        </div>
+        <div>
+         <h4 class="font-display-lg text-xl text-primary font-normal">
+          Wellness &amp; Slow
+         </h4>
+         <span class="font-label-md text-[11px] text-tertiary">
+          11 Sanctuaries
+         </span>
+        </div>
+       </a>
+       <!-- 6 -->
+       <a class="group bg-surface-container-low hover:bg-surface-container p-6 rounded-xl flex flex-col items-start justify-between min-h-[160px] transition-all" href="#custom-planner" onclick="selectPassionAndScroll('Arts &amp; Craft')">
+        <div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+         <span class="material-symbols-outlined notranslate text-2xl" translate="no">
+          palette
+         </span>
+        </div>
+        <div>
+         <h4 class="font-display-lg text-xl text-primary font-normal">
+          Arts &amp; Craft
+         </h4>
+         <span class="font-label-md text-[11px] text-tertiary">
+          18 Ateliers
+         </span>
+        </div>
+       </a>
+       <!-- 7 -->
+       <a class="group bg-surface-container-low hover:bg-surface-container p-6 rounded-xl flex flex-col items-start justify-between min-h-[160px] transition-all" href="#custom-planner" onclick="selectPassionAndScroll('Coffee &amp; Agro')">
+        <div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+         <span class="material-symbols-outlined notranslate text-2xl" translate="no">
+          coffee
+         </span>
+        </div>
+        <div>
+         <h4 class="font-display-lg text-xl text-primary font-normal">
+          Coffee &amp; Agro
+         </h4>
+         <span class="font-label-md text-[11px] text-tertiary">
+          8 Cooperatives
+         </span>
+        </div>
+       </a>
+       <!-- 8 -->
+       <a class="group bg-surface-container-low hover:bg-surface-container p-6 rounded-xl flex flex-col items-start justify-between min-h-[160px] transition-all" href="#custom-planner" onclick="selectPassionAndScroll('Family Journeys')">
+        <div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+         <span class="material-symbols-outlined notranslate text-2xl" translate="no">
+          diversity_3
+         </span>
+        </div>
+        <div>
+         <h4 class="font-display-lg text-xl text-primary font-normal">
+          Family Journeys
+         </h4>
+         <span class="font-label-md text-[11px] text-tertiary">
+          12 Bespoke Routes
+         </span>
+        </div>
+       </a>
+      </div>
+     </div>
+    </section>
+    <!-- 5. FEATURED EDITORIAL DEEP-DIVE -->
+    <section class="w-full bg-surface-container-high py-20 lg:py-28 overflow-hidden" id="editorial-dispatch">
+     <div class="max-w-7xl mx-auto px-6 lg:px-12">
+      <div class="max-w-3xl mb-14">
+       <span class="font-label-md text-label-md uppercase tracking-widest text-tertiary">
+        Editorial Dispatch
+       </span>
+       <h2 class="font-display-lg text-4xl lg:text-5xl text-primary font-normal tracking-tight mt-2">
+        Field Stories From the Archipelago
+       </h2>
+       <p class="font-body-lg text-on-surface-variant text-base mt-3 leading-relaxed">
+        Short field encounters that reveal the people, places and working landscapes behind a journey.
+       </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="story-grid">
+       <article class="vl-story-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all" data-story-index="0">
+        <div class="vl-card-media vl-story-media">
+         <img alt="Spend a Morning With a Gayo Coffee Farmer &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/artisan.png"/>
+        </div>
+        <div class="p-7 lg:p-8">
+         <div class="flex items-center gap-2 text-tertiary mb-3">
+          <span class="material-symbols-outlined notranslate text-sm" translate="no">
+           schedule
+          </span>
+          <span class="font-label-md text-xs uppercase tracking-wider">
+           Field Story &middot; Takengon, Aceh Highlands
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl lg:text-3xl text-primary font-normal leading-tight">
+          Spend a Morning With a Gayo Coffee Farmer
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-5 leading-relaxed">
+          Wake before sunrise, walk through mist-shrouded agroforestry canopies 1,600m above sea level, meet the people who nurture the beans, and understand the journey from volcanic soil to the cup.
+         </p>
+         <div class="p-4 bg-surface-container-low rounded-lg mt-6">
+          <div class="flex items-center gap-3">
+           <span class="w-2 h-2 rounded-full bg-secondary">
+           </span>
+           <span class="font-label-md text-xs text-primary font-bold">
+            Provenance Marker:
+           </span>
+           <span class="font-body-lg text-xs text-on-surface-variant">
+            Takengon Organic Arabica Cooperative
+           </span>
+          </div>
+         </div>
+         <button class="w-full mt-6 py-3.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-all text-center" onclick="openExperienceDetail('story',0)">
+          View Experience Detail
+         </button>
+        </div>
+       </article>
+       <article class="vl-story-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all" data-story-index="1">
+        <div class="vl-card-media vl-story-media">
+         <img alt="Walk the Living Courts of Yogyakarta &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/artisan.png"/>
+        </div>
+        <div class="p-7 lg:p-8">
+         <div class="flex items-center gap-2 text-tertiary mb-3">
+          <span class="material-symbols-outlined notranslate text-sm" translate="no">
+           schedule
+          </span>
+          <span class="font-label-md text-xs uppercase tracking-wider">
+           Field Story &middot; Yogyakarta, Central Java
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl lg:text-3xl text-primary font-normal leading-tight">
+          Walk the Living Courts of Yogyakarta
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-5 leading-relaxed">
+          Enter a slower cultural rhythm through palace precincts, old neighborhoods, batik studios and the people preserving Javanese court traditions.
+         </p>
+         <div class="p-4 bg-surface-container-low rounded-lg mt-6">
+          <div class="flex items-center gap-3">
+           <span class="w-2 h-2 rounded-full bg-secondary">
+           </span>
+           <span class="font-label-md text-xs text-primary font-bold">
+            Provenance Marker:
+           </span>
+           <span class="font-body-lg text-xs text-on-surface-variant">
+            Yogyakarta Royal Heritage Circle
+           </span>
+          </div>
+         </div>
+         <button class="w-full mt-6 py-3.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-all text-center" onclick="openExperienceDetail('story',1)">
+          View Experience Detail
+         </button>
+        </div>
+       </article>
+       <article class="vl-story-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all" data-story-index="2">
+        <div class="vl-card-media vl-story-media">
+         <img alt="A Morning Inside a Torajan Ancestral Compound &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/maritime.png"/>
+        </div>
+        <div class="p-7 lg:p-8">
+         <div class="flex items-center gap-2 text-tertiary mb-3">
+          <span class="material-symbols-outlined notranslate text-sm" translate="no">
+           schedule
+          </span>
+          <span class="font-label-md text-xs uppercase tracking-wider">
+           Field Story &middot; Tana Toraja, Sulawesi
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl lg:text-3xl text-primary font-normal leading-tight">
+          A Morning Inside a Torajan Ancestral Compound
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-5 leading-relaxed">
+          Meet a local cultural liaison, learn the language of tongkonan architecture and listen to how family, ritual and landscape remain connected.
+         </p>
+         <div class="p-4 bg-surface-container-low rounded-lg mt-6">
+          <div class="flex items-center gap-3">
+           <span class="w-2 h-2 rounded-full bg-secondary">
+           </span>
+           <span class="font-label-md text-xs text-primary font-bold">
+            Provenance Marker:
+           </span>
+           <span class="font-body-lg text-xs text-on-surface-variant">
+            Toraja Community Cultural Liaison
+           </span>
+          </div>
+         </div>
+         <button class="w-full mt-6 py-3.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-all text-center" onclick="openExperienceDetail('story',2)">
+          View Experience Detail
+         </button>
+        </div>
+       </article>
+       <article class="vl-story-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all" data-story-index="3">
+        <div class="vl-card-media vl-story-media">
+         <img alt="Sailing the Quiet Waters of Raja Ampat &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/maritime.png"/>
+        </div>
+        <div class="p-7 lg:p-8">
+         <div class="flex items-center gap-2 text-tertiary mb-3">
+          <span class="material-symbols-outlined notranslate text-sm" translate="no">
+           schedule
+          </span>
+          <span class="font-label-md text-xs uppercase tracking-wider">
+           Field Story &middot; Raja Ampat, Southwest Papua
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl lg:text-3xl text-primary font-normal leading-tight">
+          Sailing the Quiet Waters of Raja Ampat
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-5 leading-relaxed">
+          Leave the busy routes behind for reef passages, quiet coves and conversations with island communities who live alongside the sea.
+         </p>
+         <div class="p-4 bg-surface-container-low rounded-lg mt-6">
+          <div class="flex items-center gap-3">
+           <span class="w-2 h-2 rounded-full bg-secondary">
+           </span>
+           <span class="font-label-md text-xs text-primary font-bold">
+            Provenance Marker:
+           </span>
+           <span class="font-body-lg text-xs text-on-surface-variant">
+            Verified Island Host Network
+           </span>
+          </div>
+         </div>
+         <button class="w-full mt-6 py-3.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-all text-center" onclick="openExperienceDetail('story',3)">
+          View Experience Detail
+         </button>
+        </div>
+       </article>
+       <article class="vl-story-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all editorial-hidden" data-story-index="4">
+        <div class="vl-card-media vl-story-media">
+         <img alt="From Cherry to Cup in the Java Highlands &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/highlands.png"/>
+        </div>
+        <div class="p-7 lg:p-8">
+         <div class="flex items-center gap-2 text-tertiary mb-3">
+          <span class="material-symbols-outlined notranslate text-sm" translate="no">
+           schedule
+          </span>
+          <span class="font-label-md text-xs uppercase tracking-wider">
+           Field Story &middot; Java Highlands
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl lg:text-3xl text-primary font-normal leading-tight">
+          From Cherry to Cup in the Java Highlands
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-5 leading-relaxed">
+          Follow coffee from flowering hillside farms through harvest, processing and careful tasting with producers who know every contour of the landscape.
+         </p>
+         <div class="p-4 bg-surface-container-low rounded-lg mt-6">
+          <div class="flex items-center gap-3">
+           <span class="w-2 h-2 rounded-full bg-secondary">
+           </span>
+           <span class="font-label-md text-xs text-primary font-bold">
+            Provenance Marker:
+           </span>
+           <span class="font-body-lg text-xs text-on-surface-variant">
+            Java Origin Producer Network
+           </span>
+          </div>
+         </div>
+         <button class="w-full mt-6 py-3.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-all text-center" onclick="openExperienceDetail('story',4)">
+          View Experience Detail
+         </button>
+        </div>
+       </article>
+       <article class="vl-story-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all editorial-hidden" data-story-index="5">
+        <div class="vl-card-media vl-story-media">
+         <img alt="The Spice Gardens of the Banda Islands &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/maritime.png"/>
+        </div>
+        <div class="p-7 lg:p-8">
+         <div class="flex items-center gap-2 text-tertiary mb-3">
+          <span class="material-symbols-outlined notranslate text-sm" translate="no">
+           schedule
+          </span>
+          <span class="font-label-md text-xs uppercase tracking-wider">
+           Field Story &middot; Banda Islands, Maluku
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl lg:text-3xl text-primary font-normal leading-tight">
+          The Spice Gardens of the Banda Islands
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-5 leading-relaxed">
+          Walk among nutmeg and clove gardens and trace the old maritime trade routes through kitchens, ports and family histories.
+         </p>
+         <div class="p-4 bg-surface-container-low rounded-lg mt-6">
+          <div class="flex items-center gap-3">
+           <span class="w-2 h-2 rounded-full bg-secondary">
+           </span>
+           <span class="font-label-md text-xs text-primary font-bold">
+            Provenance Marker:
+           </span>
+           <span class="font-body-lg text-xs text-on-surface-variant">
+            Banda Spice Garden Collective
+           </span>
+          </div>
+         </div>
+         <button class="w-full mt-6 py-3.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-all text-center" onclick="openExperienceDetail('story',5)">
+          View Experience Detail
+         </button>
+        </div>
+       </article>
+       <article class="vl-story-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all editorial-hidden" data-story-index="6">
+        <div class="vl-card-media vl-story-media">
+         <img alt="A Day With a Sidemen Rice Farmer &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/rice.png"/>
+        </div>
+        <div class="p-7 lg:p-8">
+         <div class="flex items-center gap-2 text-tertiary mb-3">
+          <span class="material-symbols-outlined notranslate text-sm" translate="no">
+           schedule
+          </span>
+          <span class="font-label-md text-xs uppercase tracking-wider">
+           Field Story &middot; Sidemen, Bali
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl lg:text-3xl text-primary font-normal leading-tight">
+          A Day With a Sidemen Rice Farmer
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-5 leading-relaxed">
+          See Bali through irrigation channels, terraced fields and village kitchens, learning how subak connects landscape, food and community.
+         </p>
+         <div class="p-4 bg-surface-container-low rounded-lg mt-6">
+          <div class="flex items-center gap-3">
+           <span class="w-2 h-2 rounded-full bg-secondary">
+           </span>
+           <span class="font-label-md text-xs text-primary font-bold">
+            Provenance Marker:
+           </span>
+           <span class="font-body-lg text-xs text-on-surface-variant">
+            Sidemen Farmer Host Collective
+           </span>
+          </div>
+         </div>
+         <button class="w-full mt-6 py-3.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-all text-center" onclick="openExperienceDetail('story',6)">
+          View Experience Detail
+         </button>
+        </div>
+       </article>
+       <article class="vl-story-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all editorial-hidden" data-story-index="7">
+        <div class="vl-card-media vl-story-media">
+         <img alt="The Hands Behind Yogyakarta Batik &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/artisan.png"/>
+        </div>
+        <div class="p-7 lg:p-8">
+         <div class="flex items-center gap-2 text-tertiary mb-3">
+          <span class="material-symbols-outlined notranslate text-sm" translate="no">
+           schedule
+          </span>
+          <span class="font-label-md text-xs uppercase tracking-wider">
+           Field Story &middot; Yogyakarta, Central Java
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl lg:text-3xl text-primary font-normal leading-tight">
+          The Hands Behind Yogyakarta Batik
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-5 leading-relaxed">
+          Spend time with master artisans to understand wax, dye, motif and the patient decisions behind a hand-drawn textile.
+         </p>
+         <div class="p-4 bg-surface-container-low rounded-lg mt-6">
+          <div class="flex items-center gap-3">
+           <span class="w-2 h-2 rounded-full bg-secondary">
+           </span>
+           <span class="font-label-md text-xs text-primary font-bold">
+            Provenance Marker:
+           </span>
+           <span class="font-body-lg text-xs text-on-surface-variant">
+            Yogyakarta Batik Atelier Network
+           </span>
+          </div>
+         </div>
+         <button class="w-full mt-6 py-3.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-all text-center" onclick="openExperienceDetail('story',7)">
+          View Experience Detail
+         </button>
+        </div>
+       </article>
+       <article class="vl-story-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all editorial-hidden" data-story-index="8">
+        <div class="vl-card-media vl-story-media">
+         <img alt="Morning Markets of Makassar &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/jakarta.png"/>
+        </div>
+        <div class="p-7 lg:p-8">
+         <div class="flex items-center gap-2 text-tertiary mb-3">
+          <span class="material-symbols-outlined notranslate text-sm" translate="no">
+           schedule
+          </span>
+          <span class="font-label-md text-xs uppercase tracking-wider">
+           Field Story &middot; Makassar, South Sulawesi
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl lg:text-3xl text-primary font-normal leading-tight">
+          Morning Markets of Makassar
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-5 leading-relaxed">
+          Start at the market before the city wakes fully and follow ingredients into family kitchens and the trading history of South Sulawesi.
+         </p>
+         <div class="p-4 bg-surface-container-low rounded-lg mt-6">
+          <div class="flex items-center gap-3">
+           <span class="w-2 h-2 rounded-full bg-secondary">
+           </span>
+           <span class="font-label-md text-xs text-primary font-bold">
+            Provenance Marker:
+           </span>
+           <span class="font-body-lg text-xs text-on-surface-variant">
+            Makassar Culinary Host Network
+           </span>
+          </div>
+         </div>
+         <button class="w-full mt-6 py-3.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-all text-center" onclick="openExperienceDetail('story',8)">
+          View Experience Detail
+         </button>
+        </div>
+       </article>
+       <article class="vl-story-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all editorial-hidden" data-story-index="9">
+        <div class="vl-card-media vl-story-media">
+         <img alt="Jamu at the Source &mdash; Visit Locals Indonesia" decoding="async" loading="lazy" src="/assets/images/experience/artisan.png"/>
+        </div>
+        <div class="p-7 lg:p-8">
+         <div class="flex items-center gap-2 text-tertiary mb-3">
+          <span class="material-symbols-outlined notranslate text-sm" translate="no">
+           schedule
+          </span>
+          <span class="font-label-md text-xs uppercase tracking-wider">
+           Field Story &middot; Central Java
+          </span>
+         </div>
+         <h3 class="font-display-lg text-2xl lg:text-3xl text-primary font-normal leading-tight">
+          Jamu at the Source
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-5 leading-relaxed">
+          Learn how traditional plant knowledge becomes everyday wellness through a producer visit, preparation session and slow conversation around the garden.
+         </p>
+         <div class="p-4 bg-surface-container-low rounded-lg mt-6">
+          <div class="flex items-center gap-3">
+           <span class="w-2 h-2 rounded-full bg-secondary">
+           </span>
+           <span class="font-label-md text-xs text-primary font-bold">
+            Provenance Marker:
+           </span>
+           <span class="font-body-lg text-xs text-on-surface-variant">
+            Jamu Heritage Producer Collective
+           </span>
+          </div>
+         </div>
+         <button class="w-full mt-6 py-3.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-all text-center" onclick="openExperienceDetail('story',9)">
+          View Experience Detail
+         </button>
+        </div>
+       </article>
+      </div>
+      <div class="pt-8 text-center">
+       <button class="inline-flex items-center gap-2 px-8 py-4 rounded bg-surface-container text-primary hover:bg-primary hover:text-on-primary font-label-md text-label-md uppercase tracking-wider transition-all duration-300 shadow-sm" id="story-show-more" onclick="toggleStories()" type="button">
+        Show More Field Stories
+        <span class="material-symbols-outlined notranslate text-base" translate="no">
+         expand_more
+        </span>
+       </button>
+      </div>
+     </div>
+    </section>
+    <!-- 6. BUSINESS TRIP EXPERIENCE (THE B2B BRIDGE) -->
+    <section class="w-full bg-primary text-on-primary py-20 lg:py-28 relative overflow-hidden">
+     <!-- Ambient subtle background glow -->
+     <div class="absolute -top-40 -right-40 w-96 h-96 bg-primary-fixed-dim/10 rounded-full blur-3xl pointer-events-none">
+     </div>
+     <div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+       <div class="lg:col-span-5">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-surface/10 text-tertiary-fixed font-label-md text-xs uppercase tracking-widest mb-4">
+         <span class="material-symbols-outlined notranslate text-sm" translate="no">
+          business_center
+         </span>
+         <span>
+          Commercial &amp; Advisory Layer
+         </span>
+        </div>
+        <h2 class="font-display-lg text-4xl lg:text-5xl text-surface-bright font-normal tracking-tight leading-tight">
+         Business, With Indonesia Around It.
+        </h2>
+        <p class="font-body-lg text-surface-container-high/90 text-base mt-6 leading-relaxed">
+         Coming to Indonesia for meetings or market research? Extend the trip beyond the conference room. Combine business objectives with local access, cultural experiences, supplier visits, and destination exploration.
+        </p>
+        <div class="pt-8 flex flex-wrap gap-4">
+         <a class="px-6 py-3 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed hover:bg-surface-bright font-label-md text-xs uppercase tracking-wider transition-all" data-path="business" href="/business/">
+          Plan a Business Trip
+         </a>
+         <a class="px-6 py-3 rounded-lg bg-surface/10 hover:bg-surface/20 text-surface-bright font-label-md text-xs uppercase tracking-wider transition-all" href="#custom-planner">
+          Consult Jakarta Desk
+         </a>
+        </div>
+       </div>
+       <!-- Sample Business Itinerary Card -->
+       <div class="lg:col-span-7 bg-surface-container-lowest/10 backdrop-blur-md rounded-2xl p-6 lg:p-8">
+        <div class="flex items-center justify-between pb-5">
+         <div>
+          <span class="font-label-md text-xs uppercase tracking-widest text-secondary-fixed">
+           Actual Business Page Journeys
+          </span>
+          <h3 class="font-display-lg text-2xl text-surface-bright mt-1 font-normal">
+           Business Mobility Programmes
+          </h3>
+         </div>
+         <a class="text-xs uppercase tracking-wider text-tertiary-fixed hover:text-surface-bright" href="/business/">
+          Open Business
+         </a>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+         <article class="vl-business-journey-card rounded-xl p-5 bg-surface/10 hover:bg-surface/15 transition-all cursor-pointer" onclick="openBusinessJourney(0)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBusinessJourney(0)}" role="button" tabindex="0">
+          <div class="flex items-start justify-between gap-4">
+           <div>
+            <span class="text-[10px] uppercase tracking-widest text-secondary-fixed">
+             Business Mobility 01
+            </span>
+            <h3 class="font-display-lg text-xl text-surface-bright font-normal mt-1">
+             Executive Market Immersion
+            </h3>
+            <p class="text-[11px] uppercase tracking-wider text-tertiary-fixed mt-1">
+             Jakarta &middot; West Java &middot; 5 Days
+            </p>
+           </div>
+           <span class="material-symbols-outlined notranslate text-tertiary-fixed">
+            arrow_forward
+           </span>
+          </div>
+          <p class="font-body-lg text-xs text-surface-container-high/80 mt-3 leading-relaxed">
+           Senior-level market immersion with regulatory orientation, industrial access, commercial mapping and partner alignment.
+          </p>
+         </article>
+         <article class="vl-business-journey-card rounded-xl p-5 bg-surface/10 hover:bg-surface/15 transition-all cursor-pointer" onclick="openBusinessJourney(1)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBusinessJourney(1)}" role="button" tabindex="0">
+          <div class="flex items-start justify-between gap-4">
+           <div>
+            <span class="text-[10px] uppercase tracking-widest text-secondary-fixed">
+             Business Mobility 02
+            </span>
+            <h3 class="font-display-lg text-xl text-surface-bright font-normal mt-1">
+             School Business Discovery Trip
+            </h3>
+            <p class="text-[11px] uppercase tracking-wider text-tertiary-fixed mt-1">
+             Jakarta &middot; Bandung &middot; 3&ndash;4 Days
+            </p>
+           </div>
+           <span class="material-symbols-outlined notranslate text-tertiary-fixed">
+            arrow_forward
+           </span>
+          </div>
+          <p class="font-body-lg text-xs text-surface-container-high/80 mt-3 leading-relaxed">
+           Supervised educational journey introducing students to Indonesian entrepreneurship, companies, creative industries and local commerce.
+          </p>
+         </article>
+         <article class="vl-business-journey-card rounded-xl p-5 bg-surface/10 hover:bg-surface/15 transition-all cursor-pointer" onclick="openBusinessJourney(2)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBusinessJourney(2)}" role="button" tabindex="0">
+          <div class="flex items-start justify-between gap-4">
+           <div>
+            <span class="text-[10px] uppercase tracking-widest text-secondary-fixed">
+             Business Mobility 03
+            </span>
+            <h3 class="font-display-lg text-xl text-surface-bright font-normal mt-1">
+             University &amp; Vocational Industry Immersion
+            </h3>
+            <p class="text-[11px] uppercase tracking-wider text-tertiary-fixed mt-1">
+             Jakarta &middot; West Java &middot; 3&ndash;5 Days
+            </p>
+           </div>
+           <span class="material-symbols-outlined notranslate text-tertiary-fixed">
+            arrow_forward
+           </span>
+          </div>
+          <p class="font-body-lg text-xs text-surface-container-high/80 mt-3 leading-relaxed">
+           Practical industry immersion combining business exposure, manufacturing visits, startup encounters and career-oriented sessions.
+          </p>
+         </article>
+         <article class="vl-business-journey-card rounded-xl p-5 bg-surface/10 hover:bg-surface/15 transition-all cursor-pointer" onclick="openBusinessJourney(3)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBusinessJourney(3)}" role="button" tabindex="0">
+          <div class="flex items-start justify-between gap-4">
+           <div>
+            <span class="text-[10px] uppercase tracking-widest text-secondary-fixed">
+             Business Mobility 04
+            </span>
+            <h3 class="font-display-lg text-xl text-surface-bright font-normal mt-1">
+             Business Matching Delegation
+            </h3>
+            <p class="text-[11px] uppercase tracking-wider text-tertiary-fixed mt-1">
+             Jakarta &middot; Surabaya &middot; 3&ndash;5 Days
+            </p>
+           </div>
+           <span class="material-symbols-outlined notranslate text-tertiary-fixed">
+            arrow_forward
+           </span>
+          </div>
+          <p class="font-body-lg text-xs text-surface-container-high/80 mt-3 leading-relaxed">
+           Curated commercial delegation built around verified counterparties, structured B2B meetings and facility visits.
+          </p>
+         </article>
+         <article class="vl-business-journey-card rounded-xl p-5 bg-surface/10 hover:bg-surface/15 transition-all cursor-pointer" onclick="openBusinessJourney(4)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBusinessJourney(4)}" role="button" tabindex="0">
+          <div class="flex items-start justify-between gap-4">
+           <div>
+            <span class="text-[10px] uppercase tracking-widest text-secondary-fixed">
+             Business Mobility 05
+            </span>
+            <h3 class="font-display-lg text-xl text-surface-bright font-normal mt-1">
+             Factory &amp; Production Audit Tour
+            </h3>
+            <p class="text-[11px] uppercase tracking-wider text-tertiary-fixed mt-1">
+             West Java &middot; East Java &middot; 3&ndash;5 Days
+            </p>
+           </div>
+           <span class="material-symbols-outlined notranslate text-tertiary-fixed">
+            arrow_forward
+           </span>
+          </div>
+          <p class="font-body-lg text-xs text-surface-container-high/80 mt-3 leading-relaxed">
+           Physical production audits covering capacity, quality, certifications and export readiness.
+          </p>
+         </article>
+         <article class="vl-business-journey-card rounded-xl p-5 bg-surface/10 hover:bg-surface/15 transition-all cursor-pointer" onclick="openBusinessJourney(5)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBusinessJourney(5)}" role="button" tabindex="0">
+          <div class="flex items-start justify-between gap-4">
+           <div>
+            <span class="text-[10px] uppercase tracking-widest text-secondary-fixed">
+             Business Mobility 06
+            </span>
+            <h3 class="font-display-lg text-xl text-surface-bright font-normal mt-1">
+             Mining &amp; Farm Site Expedition
+            </h3>
+            <p class="text-[11px] uppercase tracking-wider text-tertiary-fixed mt-1">
+             Sumatra &middot; Java &middot; Sulawesi &middot; 4&ndash;7 Days
+            </p>
+           </div>
+           <span class="material-symbols-outlined notranslate text-tertiary-fixed">
+            arrow_forward
+           </span>
+          </div>
+          <p class="font-body-lg text-xs text-surface-container-high/80 mt-3 leading-relaxed">
+           Ground-level field programme for agricultural estates, mining-related opportunities, commodity supply and local logistics.
+          </p>
+         </article>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <!-- 7. THE VISIT LOCALS DIFFERENCE (EDITORIAL REPUTATION) -->
+    <section class="w-full bg-surface py-20 lg:py-28 vl-institutional-integrity vl-section-reveal">
+     <div class="max-w-7xl mx-auto px-6 lg:px-12">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+       <span class="font-label-md text-label-md uppercase tracking-widest text-tertiary">
+        INSTITUTIONAL INTEGRITY
+       </span>
+       <h2 class="font-display-lg text-4xl lg:text-5xl text-primary font-normal tracking-tight mt-2">
+        A Journey Is More Than an Itinerary.
+       </h2>
+       <p class="font-body-lg text-on-surface-variant text-base mt-4 leading-relaxed">
+        Anyone can put destinations on a map. We believe the difference lies in who you meet, what you understand, and what you experience along the way.
+       </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+       <!-- Pillar 1 -->
+       <div class="bg-surface-container-low p-8 rounded-xl flex flex-col justify-between vl-hover-card vl-reveal-card" style="--vl-delay:0ms">
+        <div>
+         <span class="font-mono text-2xl text-tertiary font-light">
+          01
+         </span>
+         <h3 class="font-display-lg text-2xl text-primary font-normal mt-4">
+          Local Knowledge
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-3 leading-relaxed">
+          Understand places through people who live and create there. No canned scripts, no tourist aggregators&mdash;only verified field researchers and native community leaders.
+         </p>
+        </div>
+        <div class="pt-6 mt-6 flex items-center gap-2 text-xs font-label-md text-secondary">
+         <span class="material-symbols-outlined notranslate text-sm" translate="no">
+          verified
+         </span>
+         <span>
+          Zero Middlemen Aggregation
+         </span>
+        </div>
+       </div>
+       <!-- Pillar 2 -->
+       <div class="bg-surface-container-low p-8 rounded-xl flex flex-col justify-between vl-hover-card vl-reveal-card" style="--vl-delay:90ms">
+        <div>
+         <span class="font-mono text-2xl text-tertiary font-light">
+          02
+         </span>
+         <h3 class="font-display-lg text-2xl text-primary font-normal mt-4">
+          Meaningful Access
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-3 leading-relaxed">
+          Go beyond the standard tourist corridors with verified guardians. Private royal court workshops, remote island village chiefs, and direct access to conservation zones.
+         </p>
+        </div>
+        <div class="pt-6 mt-6 flex items-center gap-2 text-xs font-label-md text-secondary">
+         <span class="material-symbols-outlined notranslate text-sm" translate="no">
+          lock_open
+         </span>
+         <span>
+          Sovereign Access Permissions
+         </span>
+        </div>
+       </div>
+       <!-- Pillar 3 -->
+       <div class="bg-surface-container-low p-8 rounded-xl flex flex-col justify-between vl-hover-card vl-reveal-card" style="--vl-delay:180ms">
+        <div>
+         <span class="font-mono text-2xl text-tertiary font-light">
+          03
+         </span>
+         <h3 class="font-display-lg text-2xl text-primary font-normal mt-4">
+          Thoughtful Curation
+         </h3>
+         <p class="font-body-lg text-sm text-on-surface-variant mt-3 leading-relaxed">
+          Every journey has a deliberate reason, cadence, and story. We balance unhurried contemplation with deep cultural resonance, respecting local carrying capacity.
+         </p>
+        </div>
+        <div class="pt-6 mt-6 flex items-center gap-2 text-xs font-label-md text-secondary">
+         <span class="material-symbols-outlined notranslate text-sm" translate="no">
+          auto_stories
+         </span>
+         <span>
+          Architectural Narrative Pace
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <!-- 8. INTERACTIVE CUSTOM JOURNEY PLANNER -->
+    <section class="w-full bg-surface-container py-20 lg:py-28" id="custom-planner">
+     <div class="max-w-4xl mx-auto px-6 lg:px-12">
+      <div class="bg-surface-container-lowest rounded-2xl p-8 lg:p-12 shadow-xl">
+       <div class="text-center max-w-xl mx-auto mb-10">
+        <span class="font-label-md text-label-md uppercase tracking-widest text-tertiary">
+         GUIDE TAILORING
+        </span>
+        <h2 class="font-display-lg text-3xl lg:text-4xl text-primary font-normal tracking-tight mt-2">
+         Your Indonesia. Your Way.
+        </h2>
+        <p class="font-body-lg text-on-surface-variant text-sm mt-3">
+         Have a destination in mind but don&rsquo;t know where to start? Tell us what interests you, how you like to travel, and what you want to discover. We&rsquo;ll shape the journey around you.
+        </p>
+       </div>
+       <form class="space-y-8" id="journey-planner-form" onsubmit="handleJourneySubmit(event)">
+        <input id="selected-journey" name="selected_journey" type="hidden" value=""/>
+        <!-- Step 1: Passions -->
+        <div>
+         <label class="block font-label-md text-xs uppercase tracking-widest text-primary mb-3">
+          1. Select Your Core Passions
+         </label>
+         <div class="flex flex-wrap gap-2.5" id="interests-container">
+          <button class="interest-btn px-4 py-2 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-xs transition-colors" onclick="toggleInterest(this)" type="button">
+           Culture &amp; Heritage
+          </button>
+          <button class="interest-btn px-4 py-2 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-xs transition-colors" onclick="toggleInterest(this)" type="button">
+           Gastronomy &amp; Coffee
+          </button>
+          <button class="interest-btn px-4 py-2 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-xs transition-colors" onclick="toggleInterest(this)" type="button">
+           Nature &amp; Wilderness
+          </button>
+          <button class="interest-btn px-4 py-2 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-xs transition-colors" onclick="toggleInterest(this)" type="button">
+           Marine Expeditions
+          </button>
+          <button class="interest-btn px-4 py-2 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-xs transition-colors" onclick="toggleInterest(this)" type="button">
+           Wellness &amp; Restoration
+          </button>
+          <button class="interest-btn px-4 py-2 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-xs transition-colors" onclick="toggleInterest(this)" type="button">
+           Photography
+          </button>
+          <button class="interest-btn px-4 py-2 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-xs transition-colors" onclick="toggleInterest(this)" type="button">
+           Commercial &amp; Business
+          </button>
+          <button class="interest-btn px-4 py-2 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-xs transition-colors" onclick="toggleInterest(this)" type="button">
+           Indigenous Communities
+          </button>
+         </div>
+        </div>
+        <!-- Step 2: Duration -->
+        <div>
+         <label class="block font-label-md text-xs uppercase tracking-widest text-primary mb-3">
+          2. Planned Duration
+         </label>
+         <div class="grid grid-cols-2 sm:grid-cols-4 gap-3" id="duration-container">
+          <button class="duration-btn px-4 py-2.5 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-xs text-center transition-colors" onclick="selectDuration(this, '3-5 Days')" type="button">
+           3&ndash;5 Days
+          </button>
+          <button class="duration-btn px-4 py-2.5 rounded-lg bg-primary text-on-primary font-label-md text-xs text-center transition-colors" onclick="selectDuration(this, '6-8 Days')" type="button">
+           6&ndash;8 Days
+          </button>
+          <button class="duration-btn px-4 py-2.5 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-xs text-center transition-colors" onclick="selectDuration(this, '9-14 Days')" type="button">
+           9&ndash;14 Days
+          </button>
+          <button class="duration-btn px-4 py-2.5 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-xs text-center transition-colors" onclick="selectDuration(this, '2+ Weeks')" type="button">
+           2+ Weeks
+          </button>
+         </div>
+        </div>
+        <!-- Step 3: Destination & Notes -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+         <div>
+          <label class="block font-label-md text-xs uppercase tracking-widest text-primary mb-2">
+           Preferred Regions (Optional)
+          </label>
+          <input class="w-full px-4 py-3 rounded-lg bg-surface-container text-on-surface font-body-lg text-sm focus:outline-none focus:ring-1 focus:ring-primary placeholder:text-on-surface-variant/60" placeholder="e.g. Flores + Sidemen Bali" type="text"/>
+         </div>
+         <div>
+          <label class="block font-label-md text-xs uppercase tracking-widest text-primary mb-2">
+           Your Contact (WhatsApp or Email) *
+          </label>
+          <input class="w-full px-4 py-3 rounded-lg bg-surface-container text-on-surface font-body-lg text-sm focus:outline-none focus:ring-1 focus:ring-primary placeholder:text-on-surface-variant/60" placeholder="+62 / international number or email" required="" type="text"/>
+         </div>
+        </div>
+        <div>
+         <label class="block font-label-md text-xs uppercase tracking-widest text-primary mb-2">
+          Specific Intentions or Questions
+         </label>
+         <textarea class="w-full px-4 py-3 rounded-lg bg-surface-container text-on-surface font-body-lg text-sm focus:outline-none focus:ring-1 focus:ring-primary placeholder:text-on-surface-variant/60" placeholder="Tell us if you have dietary preferences, desire private schooner charters, or seek royal atelier introductions..." rows="3"></textarea>
+        </div>
+        <!-- CTA and confirmation -->
+        <div class="pt-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+         <div class="flex items-center gap-2 text-xs font-label-md text-on-surface-variant">
+          <span class="material-symbols-outlined notranslate text-sm text-secondary" translate="no">
+           verified_user
+          </span>
+          <span>
+           Direct SCBD Guide Desk Response (&lt; 2 Hours)
+          </span>
+         </div>
+         <button class="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-primary-container text-on-primary hover:bg-primary font-label-md text-xs uppercase tracking-wider transition-colors shadow-md" id="planner-submit-btn" type="submit">
+          Create My Journey
+         </button>
+        </div>
+        <!-- Feedback message -->
+        <div class="hidden p-4 rounded-lg bg-secondary-fixed text-on-secondary-fixed font-label-md text-xs text-center" id="planner-success-msg">
+         Terima kasih! Your journey parameters have been received. A dedicated Visit Locals archipelago specialist will connect via WhatsApp within 2 hours.
+        </div>
+       </form>
+      </div>
+     </div>
+    </section>
+    <!-- 9. SEASONAL / EDITORIAL SECTION (NOW WORTH EXPLORING) -->
+    <!-- 10. FINAL INSPIRATIONAL CTA (EDITORIAL CLIMAX) -->
+    <section class="w-full bg-primary-container text-on-primary py-24 lg:py-32 relative overflow-hidden">
+     <div class="max-w-4xl mx-auto px-6 lg:px-12 text-center relative z-10">
+      <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-surface/10 text-tertiary-fixed mb-8">
+       <span class="material-symbols-outlined notranslate text-3xl" translate="no">
+        explore
+       </span>
+      </div>
+      <h2 class="font-display-lg text-4xl lg:text-6xl text-surface-bright font-normal tracking-tight mb-6 leading-tight">
+       Where Will Indonesia Take You?
+      </h2>
+      <p class="font-body-lg text-surface-container-high/90 text-base lg:text-lg max-w-2xl mx-auto mb-10 leading-relaxed font-light">
+       Whether you know exactly where you&rsquo;re going or simply know that you want to discover something different, we&rsquo;ll help you find the right way in.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
+       <a class="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-surface-bright text-primary hover:bg-tertiary-fixed font-label-md text-xs uppercase tracking-wider transition-all" href="#destinations">
+        Explore Destinations
+       </a>
+       <a class="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-transparent text-surface-bright hover:bg-surface-bright/10 font-label-md text-xs uppercase tracking-wider transition-all" href="#custom-planner">
+        Create My Journey
+       </a>
+      </div>
+      <div class="inline-flex items-center gap-3 px-5 py-2.5 rounded-xl bg-surface/5 backdrop-blur text-xs font-label-md text-surface-container-high">
+       <span class="material-symbols-outlined notranslate text-secondary-fixed text-base" translate="no">
+        forum
+       </span>
+       <span>
+        Direct SCBD Guide Desk:
+       </span>
+       <a class="text-tertiary-fixed underline hover:text-surface-bright transition-colors font-mono" href="https://wa.me/6285285469417" rel="noopener noreferrer" target="_blank">
+        +62 852 8546 9417
+       </a>
+      </div>
+     </div>
+    </section>
+    <!-- Interactive Ledger Detail Modal -->
+   </div>
+   <div aria-hidden="true" class="fixed inset-0 z-[100] hidden items-center justify-center bg-primary/70 backdrop-blur-sm p-4 overflow-y-auto" id="vl-detail-modal" onclick="if(event.target===this)closeExperienceDetail()">
+    <div class="relative w-full max-w-3xl my-6 rounded-2xl bg-surface shadow-2xl overflow-hidden">
+     <button aria-label="Close" onclick="closeExperienceDetail()" style="position:absolute;top:14px;right:14px;z-index:30;width:42px;height:42px;border-radius:9999px;display:flex;align-items:center;justify-content:center;background:#fff;color:#050040;border:1px solid #E0D4C3;box-shadow:0 4px 12px rgba(0,0,0,.12);cursor:pointer;font-size:28px;line-height:1;" type="button">
+      &times;
+     </button>
+     <div class="p-7 md:p-9 space-y-7 max-h-[88vh] overflow-y-auto">
+      <div class="space-y-3 pr-12">
+       <span class="font-label-md text-xs uppercase tracking-widest text-tertiary font-bold" id="detail-kicker">
+       </span>
+       <h3 class="font-display-lg text-3xl md:text-4xl text-primary font-normal" id="detail-title">
+       </h3>
+       <div class="flex flex-wrap items-center gap-3">
+        <span class="px-2.5 py-1 rounded-full bg-surface-container-high text-[11px] font-label-md text-primary uppercase" id="detail-duration">
+        </span>
+        <span class="text-xs text-on-surface-variant" id="detail-route">
+        </span>
+       </div>
+       <p class="text-sm md:text-base text-on-surface-variant leading-relaxed" id="detail-intro">
+       </p>
+      </div>
+      <div class="rounded-2xl p-5 md:p-6" style="background:#F3EDE4;border:1px solid #E0D4C3;">
+       <div class="flex items-center justify-between gap-4 mb-5">
+        <h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold">
+         Suggested Itinerary
+        </h4>
+        <span class="text-xs font-semibold text-tertiary uppercase tracking-wider" id="detail-kind">
+        </span>
+       </div>
+       <div class="space-y-4" id="detail-itinerary">
+       </div>
+      </div>
+      <div class="rounded-xl p-5" style="background:#F8F4EC;border:1px solid #E5DCCE;">
+       <h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold mb-3" id="detail-includes-title">
+        Itinerary Inclusions
+       </h4>
+       <ul class="grid md:grid-cols-2 gap-2 text-sm text-on-surface" id="detail-includes">
+       </ul>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-3 pt-1">
+       <a class="flex-1 inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-container text-on-primary font-label-md text-xs uppercase tracking-wider py-3.5 rounded-lg shadow-md transition-all" href="#custom-planner" id="detail-form" onclick="closeExperienceDetail();document.getElementById('custom-planner').scrollIntoView({behavior:'smooth'});">
+        Plan This Experience
+        <span class="material-symbols-outlined notranslate text-sm" translate="no">
+         arrow_forward
+        </span>
+       </a>
+       <a class="flex-1 inline-flex items-center justify-center gap-2 border border-secondary text-secondary hover:bg-secondary hover:text-white font-label-md text-xs uppercase tracking-wider py-3.5 rounded-lg transition-all" href="#" id="detail-wa" rel="noopener noreferrer" target="_blank">
+        Discuss on WhatsApp
+        <span class="material-symbols-outlined notranslate text-sm" translate="no">
+         chat
+        </span>
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+   <style id="vl-experience-enhancements">
+    .vl-section-reveal{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s ease}.vl-section-reveal.vl-visible{opacity:1;transform:none}
+.vl-hover-card{transition:transform .35s ease,box-shadow .35s ease,opacity .5s ease;transition-delay:var(--vl-delay,0ms)}.vl-hover-card:hover{transform:translateY(-7px);box-shadow:0 18px 40px rgba(5,0,64,.10)}
+.vl-reveal-card{animation:vlCardIn .65s ease both}@keyframes vlCardIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.season-hidden,.itinerary-hidden,.editorial-hidden{display:none!important}
+.vl-business-journey-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(0,0,0,.12)}
+
+/* Visual card treatment: local editorial photography + subtle motion */
+.vl-card-media{position:relative;height:220px;overflow:hidden;background:#e8e2cf;}
+.vl-card-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,0,64,.02) 35%,rgba(5,0,64,.22) 100%);pointer-events:none;transition:opacity .4s ease;}
+.vl-card-media img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.65,.25,1),filter .5s ease;will-change:transform;}
+.season-card,.vl-ledger-card,.vl-story-card{overflow:hidden;transition:transform .4s ease,box-shadow .4s ease;}
+.season-card:hover,.vl-ledger-card:hover,.vl-story-card:hover{transform:translateY(-6px);box-shadow:0 18px 42px rgba(5,0,64,.12);}
+.season-card:hover .vl-card-media img,.vl-ledger-card:hover .vl-card-media img,.vl-story-card:hover .vl-card-media img{transform:scale(1.065);filter:saturate(1.06) contrast(1.02);}
+.season-card:hover .vl-card-media::after,.vl-ledger-card:hover .vl-card-media::after,.vl-story-card:hover .vl-card-media::after{opacity:.72;}
+.vl-ledger-media{height:240px;margin:-1.5rem -1.5rem 1.5rem;}
+.vl-story-media{height:230px;}
+.vl-reveal-card{animation:vlCardIn .7s cubic-bezier(.2,.65,.25,1) both;}
+.season-card:nth-child(2),.vl-ledger-card:nth-child(2),.vl-story-card:nth-child(2){animation-delay:.06s}.season-card:nth-child(3),.vl-ledger-card:nth-child(3),.vl-story-card:nth-child(3){animation-delay:.12s}.season-card:nth-child(4),.vl-ledger-card:nth-child(4),.vl-story-card:nth-child(4){animation-delay:.18s}
+@media (max-width:767px){.vl-card-media{height:205px}.vl-ledger-media{height:205px;margin:-1.5rem -1.5rem 1.25rem}.vl-story-media{height:205px}}
+@media (prefers-reduced-motion:reduce){.season-card,.vl-ledger-card,.vl-story-card,.vl-card-media img{transition:none!important;animation:none!important}}
+   </style>
+   <script id="vl-experience-interactions">
+    const VL_SEASONS=[{"title": "Rainforest Season", "type": "Highland Season", "region": "West & Central", "desc": "Discover Indonesia’s lush emerald interior landscapes and mist-shrouded volcanic valleys when waterfalls and rivers run in full majesty.", "duration": "5 Days", "route": "Bogor → Bandung → Central Java Highlands", "detail": "Rainforest walks, waterfall routes, volcanic highlands, village lunch and a slow evening in a mountain compound."}, {"title": "Coffee Harvest", "type": "Origin Harvest", "region": "Sumatra & Java", "desc": "Meet cooperative producers and experience harvest origins in northern Sumatra and Java. Witness wet-hulling and taste freshly processed lots.", "duration": "4 Days", "route": "Takengon → Lake Toba → Java Highlands", "detail": "Sunrise farm walk, cherry picking, wet-hulling demonstration, cooperative cupping, producer dinner and origin-to-cup briefing."}, {"title": "Island Season", "type": "Maritime Passage", "region": "Eastern Sea", "desc": "Explore pristine outer archipelagos, calm equatorial seas, and secluded coastal communities with optimum water clarity and gentle trades.", "duration": "6 Days", "route": "Sorong → Raja Ampat → Outer Islands", "detail": "Private boat passage, reef exploration, village visit, sunrise anchorage and quiet-island coastal time."}, {"title": "Heritage Season", "type": "Living Heritage", "region": "Java & Bali", "desc": "Travel through royal cities, ancestral compounds and living craft traditions when cultural calendars favour longer, slower encounters.", "duration": "6 Days", "route": "Yogyakarta → Solo → East Bali", "detail": "Palace context briefing, batik atelier, heritage architecture walk, village hospitality and artisan workshop."}, {"title": "Spice & Market Season", "type": "Trade Routes", "region": "Maluku & Sulawesi", "desc": "Follow Indonesia’s old spice corridors through markets, coastal communities and kitchens where trade history still shapes daily life.", "duration": "5 Days", "route": "Makassar → Banda / Maluku Passage", "detail": "Market orientation, spice garden visit, coastal boat transfer, family kitchen session and trade-history field walk."}, {"title": "Volcanic Highlands", "type": "Highland Window", "region": "Java & Sumatra", "desc": "Climb into cooler volcanic landscapes for mountain dawns, tea and coffee origins, terraced agriculture and local highland life.", "duration": "5 Days", "route": "Bandung → Garut → Central Java", "detail": "Volcanic sunrise, plantation visit, farm lunch, highland trail and producer conversation."}, {"title": "Wildlife Passage", "type": "Field Season", "region": "Sumatra & Eastern Indonesia", "desc": "Enter Indonesia’s forest and marine habitats with conservation-minded field hosts and carefully timed wildlife encounters.", "duration": "6 Days", "route": "Sumatra → Eastern Archipelago", "detail": "Forest briefing, guided habitat walk, conservation visit, coastal passage and field observation sessions."}, {"title": "Wellness & Jamu", "type": "Restoration Cycle", "region": "Java & Bali", "desc": "Slow down through traditional wellness practices, plant knowledge, sacred water landscapes and restorative rural stays.", "duration": "4 Days", "route": "Yogyakarta → Central Java → Bali", "detail": "Jamu workshop, traditional wellness consultation, sacred-water visit, gentle movement and farm-to-table meals."}, {"title": "Coffee & Cacao Origins", "type": "Origin Field Season", "region": "Java & Sulawesi", "desc": "Trace two Indonesian origin stories from cultivated landscapes to fermentation, processing and careful tasting with producers.", "duration": "5 Days", "route": "East Java → Toraja / Sulawesi", "detail": "Farm visit, fermentation session, cacao and coffee processing, producer lunch and guided comparative tasting."}, {"title": "Agricultural Harvest", "type": "Harvest Cycle", "region": "Java & Bali", "desc": "Meet growers during active harvest windows and understand how landscapes, water, labour and food traditions connect.", "duration": "5 Days", "route": "Central Java → Bali", "detail": "Harvest participation, irrigation landscape walk, village kitchen, farmer dialogue and seasonal feast."}];
+const VL_ITINERARIES=[{"title": "Java Heritage Journey", "duration": "7 Days", "route": "Jakarta → Yogyakarta → Central Java", "desc": "Private access to royal batik ateliers, dawn at Borobudur, and culinary trails through ancient Javanese court kitchens.", "includes": "Private palace entry, heritage rail transfers, traditional canting workshop and curated court-kitchen access."}, {"title": "Bali Beyond Ordinary", "duration": "6 Days", "route": "Ubud → Sidemen → East Bali", "desc": "Sidemen valley farm harvest, master healer consultations, and sequestered artisan retreats far outside tourist corridors.", "includes": "Private villa estates, agricultural foraging, sacred-grove context and coastal temple blessings."}, {"title": "Komodo Maritime", "duration": "7 Days", "route": "Labuan Bajo → Komodo → Outer Islands", "desc": "Traditional wooden Phinisi voyage across marine reserves, pink sand atolls and native ranger walks.", "includes": "Master captain crew, marine field guide, island anchorage permissions and conservation briefings."}, {"title": "Sumatra Highlands", "duration": "8 Days", "route": "Medan → Lake Toba → Aceh Gayo", "desc": "1,600m agroforestry cooperatives, single-origin cupping and Batak heritage along volcanic Lake Toba.", "includes": "Private cupping rooms, wet-hulling farm immersion, lakeside heritage lodges and cooperative access."}, {"title": "Sulawesi Ancestral Heritage", "duration": "5 Days", "route": "Makassar → Tana Toraja", "desc": "Private Torajan cultural liaison, mountain compound hospitality, and ritual observation protocol.", "includes": "Verified on-the-ground local coordinator, exclusive heritage access licenses & estate permits, direct 24/7 bilingual WhatsApp guide link."}, {"title": "Raja Ampat Blue Passage", "duration": "6 Days", "route": "Sorong → Raja Ampat → Outer Islands", "desc": "A quiet marine passage combining reef time, village hospitality, conservation context and private island anchorage.", "includes": "Private boat coordination, marine guide, village-host access and conservation-oriented route planning."}, {"title": "Java Craft & Culinary Route", "duration": "5 Days", "route": "Yogyakarta → Solo → Central Java", "desc": "Move through batik, ceramics, traditional kitchens and market culture with direct artisan introductions.", "includes": "Artisan atelier access, culinary host sessions, heritage transport and bilingual local coordination."}, {"title": "Eastern Spice Passage", "duration": "6 Days", "route": "Makassar → Maluku", "desc": "Follow old maritime trade routes through spice gardens, markets, coastal communities and family kitchens.", "includes": "Coastal transport coordination, spice producer access, market walks and local culinary hosts."}, {"title": "Flores Highlands & Villages", "duration": "5 Days", "route": "Labuan Bajo → Flores Highlands", "desc": "Travel beyond the coast into highland villages, weaving traditions, coffee landscapes and local foodways.", "includes": "Community liaison, weaving atelier, farm-to-table meals and highland transport coordination."}, {"title": "Jamu & Sacred Water Retreat", "duration": "4 Days", "route": "Yogyakarta → Central Java", "desc": "A restorative journey into Javanese plant knowledge, jamu traditions, sacred-water landscapes and slow rural life.", "includes": "Jamu maker session, wellness consultation, sacred-water visit and quiet rural lodging."}];
+const VL_STORIES=[{"location": "Takengon, Aceh Highlands", "title": "Spend a Morning With a Gayo Coffee Farmer", "desc": "Wake before sunrise, walk through mist-shrouded agroforestry canopies 1,600m above sea level, meet the people who nurture the beans, and understand the journey from volcanic soil to the cup.", "provenance": "Takengon Organic Arabica Cooperative", "duration": "Half Day Experience", "route": "Takengon, Aceh Highlands", "detail": "Private cupping session with cooperative agronomist, cherry harvest participation, and heirloom lunch."}, {"location": "Yogyakarta, Central Java", "title": "Walk the Living Courts of Yogyakarta", "desc": "Enter a slower cultural rhythm through palace precincts, old neighborhoods, batik studios and the people preserving Javanese court traditions.", "provenance": "Yogyakarta Royal Heritage Circle", "duration": "Full Day Experience", "route": "Yogyakarta", "detail": "Private heritage liaison, palace-context walk, batik atelier and traditional lunch."}, {"location": "Tana Toraja, Sulawesi", "title": "A Morning Inside a Torajan Ancestral Compound", "desc": "Meet a local cultural liaison, learn the language of tongkonan architecture and listen to how family, ritual and landscape remain connected.", "provenance": "Toraja Community Cultural Liaison", "duration": "Full Day Experience", "route": "Tana Toraja", "detail": "Ancestral compound visit, cultural protocol briefing, mountain hospitality and local meal."}, {"location": "Raja Ampat, Southwest Papua", "title": "Sailing the Quiet Waters of Raja Ampat", "desc": "Leave the busy routes behind for reef passages, quiet coves and conversations with island communities who live alongside the sea.", "provenance": "Verified Island Host Network", "duration": "Full Day / Overnight Experience", "route": "Raja Ampat", "detail": "Private boat day, reef guide, island community visit and sunset anchorage."}, {"location": "Java Highlands", "title": "From Cherry to Cup in the Java Highlands", "desc": "Follow coffee from flowering hillside farms through harvest, processing and careful tasting with producers who know every contour of the landscape.", "provenance": "Java Origin Producer Network", "duration": "Full Day Experience", "route": "East Java Highlands", "detail": "Farm walk, processing demonstration, producer lunch and guided cupping."}, {"location": "Banda Islands, Maluku", "title": "The Spice Gardens of the Banda Islands", "desc": "Walk among nutmeg and clove gardens and trace the old maritime trade routes through kitchens, ports and family histories.", "provenance": "Banda Spice Garden Collective", "duration": "2-Day Experience", "route": "Banda Islands, Maluku", "detail": "Spice garden walk, local market, coastal passage and family kitchen session."}, {"location": "Sidemen, Bali", "title": "A Day With a Sidemen Rice Farmer", "desc": "See Bali through irrigation channels, terraced fields and village kitchens, learning how subak connects landscape, food and community.", "provenance": "Sidemen Farmer Host Collective", "duration": "Full Day Experience", "route": "Sidemen, Bali", "detail": "Rice-field walk, irrigation context, seasonal farm work and village lunch."}, {"location": "Yogyakarta, Central Java", "title": "The Hands Behind Yogyakarta Batik", "desc": "Spend time with master artisans to understand wax, dye, motif and the patient decisions behind a hand-drawn textile.", "provenance": "Yogyakarta Batik Atelier Network", "duration": "Half Day Experience", "route": "Yogyakarta", "detail": "Private atelier visit, canting demonstration, motif discussion and hands-on session."}, {"location": "Makassar, South Sulawesi", "title": "Morning Markets of Makassar", "desc": "Start at the market before the city wakes fully and follow ingredients into family kitchens and the trading history of South Sulawesi.", "provenance": "Makassar Culinary Host Network", "duration": "Half Day Experience", "route": "Makassar", "detail": "Market walk, ingredient tasting, family-kitchen session and spice-route briefing."}, {"location": "Central Java", "title": "Jamu at the Source", "desc": "Learn how traditional plant knowledge becomes everyday wellness through a producer visit, preparation session and slow conversation around the garden.", "provenance": "Jamu Heritage Producer Collective", "duration": "Half Day Experience", "route": "Central Java", "detail": "Medicinal garden walk, jamu preparation, tasting and local wellness context."}];
+const VL_BUSINESS=[{"title": "Executive Market Immersion", "location": "Jakarta · West Java", "duration": "5 Days", "intro": "A senior-level market immersion combining regulatory orientation, industrial site access, commercial mapping, partner alignment, and a curated cultural debrief for decision-makers entering Indonesia.", "days": [["DAY 01", "Executive Briefing & Government Channels", "Private briefing at the SCBD advisory desk, followed by pre-aligned regulatory and investment discussions."], ["DAY 02", "Industrial Corridors & Factory Visits", "Chauffeured transit to Karawang / Cikarang industrial corridors for physical audits and management meetings."], ["DAY 03", "Wholesale & Retail Footprint Auditing", "Guided study across traditional trade distribution points and modern retail centers."], ["DAY 04", "Partner Alignment & Private Dinner", "Bilingual commercial discussions with selected counterparties and executive dinner."], ["DAY 05", "Cultural Sanctuary & Debrief", "Private cultural access, findings review, trip dossier handover and departure coordination."]], "includes": ["Pre-trip counterparty preparation", "Private ground transportation", "Bilingual meeting support", "Factory / office visit coordination", "Daily operational briefing", "Final trip dossier"]}, {"title": "School Business Discovery Trip", "location": "Jakarta · Bandung", "duration": "3–4 Days", "intro": "A supervised educational business journey introducing students to Indonesian entrepreneurship, companies, creative industries, local commerce and cultural context.", "days": [["DAY 01", "Jakarta Business Orientation", "Economy and entrepreneurship briefing, company / SME visit and founder session."], ["DAY 02", "Commerce & Creative Industry", "Curated visits to production studios, markets or social enterprises."], ["DAY 03", "Bandung Innovation & Industry", "Company, vocational or creative-industry visit and applied workshop."], ["DAY 04", "Cultural Learning & Debrief", "Cultural experience, reflection session and supervised departure."]], "includes": ["School-group itinerary design", "Teacher / coordinator liaison", "Supervised local mobility", "Company and SME visit coordination", "Educational briefing materials", "Safeguarding-aware programme design"]}, {"title": "University & Vocational Industry Immersion", "location": "Jakarta · West Java", "duration": "3–5 Days", "intro": "A practical industry immersion combining Indonesian business exposure, supply-chain learning, manufacturing visits, startup encounters and career-oriented discussions.", "days": [["DAY 01", "Industry Briefing & Institutional Exchange", "Indonesia market orientation and institutional exchange focused on workforce development and entrepreneurship."], ["DAY 02", "Factory & Production Systems", "Factory visit with production-line walk-throughs, quality-control explanations and management Q&A."], ["DAY 03", "Startup, Technology & Digital Commerce", "Meet founders and examine digital commerce, payments and scaling in Indonesia."], ["DAY 04", "Supply Chain & Career Sessions", "Trace a selected supply chain and hold a career session with practitioners."], ["DAY 05", "Capstone Debrief & Cultural Context", "Student presentations, facilitated reflection and programme dossier handover."]], "includes": ["Academic / faculty coordination", "Industry and factory introductions", "Company and startup scheduling", "Bilingual interpretation when required", "Transport and field coordination", "Programme dossier for faculty"]}, {"title": "Business Matching Delegation", "location": "Jakarta · Surabaya", "duration": "3–5 Days", "intro": "A curated commercial delegation designed around verified counterparties, structured B2B meetings, facility visits, negotiation support and disciplined follow-up.", "days": [["DAY 01", "Commercial Briefing & Counterparty Review", "Review objectives, buyer / supplier criteria, meeting protocol and shortlisted counterparties."], ["DAY 02", "Curated B2B Meeting Programme", "Full day of pre-arranged bilateral meetings with screened companies and strategic partners."], ["DAY 03", "Facility Verification & Assessment", "On-site facility visits to validate operations, capacity, ownership context and commercial fit."], ["DAY 04", "Negotiation & Partner Alignment", "Follow-up meetings, commercial term discussions and negotiation support."], ["DAY 05", "Debrief & Next-Step Roadmap", "Partner prioritisation, action register and roadmap for samples, diligence or contracting."]], "includes": ["Counterparty screening", "Meeting scheduling", "Bilingual negotiation support", "Site-visit coordination", "Commercial comparison", "Post-trip action roadmap"]}, {"title": "Factory & Production Audit Tour", "location": "West Java · East Java", "duration": "3–5 Days", "intro": "A field programme for buyers, brands and procurement teams assessing Indonesian production partners through physical audits, capacity checks, quality review and export-readiness assessment.", "days": [["DAY 01", "Supplier Landscape & Audit Briefing", "Review specifications, volumes, certification requirements and audit criteria."], ["DAY 02", "Production Line & Capacity Audits", "Inspect machinery, production flow, workforce, capacity, quality systems and warehousing."], ["DAY 03", "Quality, Sampling & Compliance Review", "Sampling sessions, specification checks, documentation and certification verification."], ["DAY 04", "Second-Site Comparison & Commercial Terms", "Benchmark capacity, pricing, lead times, MOQs and export capability."], ["DAY 05", "Supplier Ranking & Procurement Debrief", "Rank suppliers, identify risks and establish next steps."]], "includes": ["Supplier pre-screening", "Factory audit checklist", "Physical production inspection", "Sampling and quality coordination", "Certification review", "Supplier comparison"]}, {"title": "Mining & Farm Site Expedition", "location": "Sumatra · Java · Sulawesi", "duration": "4–7 Days", "intro": "A ground-level expedition for investors, buyers and project teams assessing agricultural estates, mining-related opportunities, commodity supply, physical operations and local logistics.", "days": [["DAY 01", "Project Briefing & Route Coordination", "Review thesis, site objectives, access requirements, stakeholders and field-safety considerations."], ["DAY 02", "Primary Site Inspection", "Physical inspection of terrain, infrastructure, operating conditions and production activity."], ["DAY 03", "Operations, Supply Chain & Infrastructure", "Assess logistics routes, storage, processing / extraction infrastructure and utilities."], ["DAY 04", "Local Stakeholder & Commercial Meetings", "Meet operators and relevant local commercial stakeholders."], ["DAY 05", "Secondary Site / Producer Comparison", "Where relevant, inspect a second site or producer to benchmark scale and practices."], ["DAY 06", "Feasibility Review & Risk Mapping", "Consolidate observations and review operational implications."], ["DAY 07", "Debrief & Field Dossier Handover", "Final debrief, evidence review and next-step recommendations."]], "includes": ["Pre-trip site coordination", "Local ground transportation", "Stakeholder scheduling", "Field observation", "Operational assessment", "Post-expedition findings dossier"]}];
+let vlSeasonExpanded=false,vlItineraryExpanded=false,vlStoryExpanded=false;
+function toggleSeasonalChoices(){vlSeasonExpanded=!vlSeasonExpanded;document.querySelectorAll('.season-card').forEach((e,i)=>e.classList.toggle('season-hidden',!vlSeasonExpanded&&i>=4));document.getElementById('season-show-more').innerHTML=vlSeasonExpanded?'Show Fewer Seasonal Recommendations <span class="material-symbols-outlined notranslate text-base">expand_less</span>':'Show More Seasonal Recommendations <span class="material-symbols-outlined notranslate text-base">expand_more</span>';}
+function toggleItineraries(){vlItineraryExpanded=!vlItineraryExpanded;document.querySelectorAll('.vl-ledger-card').forEach((e,i)=>e.classList.toggle('itinerary-hidden',!vlItineraryExpanded&&i>=5));document.getElementById('itinerary-show-more').innerHTML=vlItineraryExpanded?'Show fewer curated journeys <span class="material-symbols-outlined notranslate text-base">expand_less</span>':'Show more curated journeys <span class="material-symbols-outlined notranslate text-base">expand_more</span>';}
+function toggleStories(){vlStoryExpanded=!vlStoryExpanded;document.querySelectorAll('.vl-story-card').forEach((e,i)=>e.classList.toggle('editorial-hidden',!vlStoryExpanded&&i>=4));document.getElementById('story-show-more').innerHTML=vlStoryExpanded?'Show Fewer Field Stories <span class="material-symbols-outlined notranslate text-base">expand_less</span>':'Show More Field Stories <span class="material-symbols-outlined notranslate text-base">expand_more</span>';}
+function selectPassionAndScroll(value){const hidden=document.getElementById('selected-journey');if(hidden)hidden.value=value;const btns=[...document.querySelectorAll('#interests-container .interest-btn')];btns.forEach(b=>{const on=b.textContent.trim().toLowerCase()===value.toLowerCase();b.classList.toggle('bg-primary',on);b.classList.toggle('text-on-primary',on);b.classList.toggle('bg-surface-container',!on);b.classList.toggle('text-on-surface-variant',!on);});document.getElementById('custom-planner')?.scrollIntoView({behavior:'smooth'});}
+function selectDuration(button,value){document.querySelectorAll('.duration-btn').forEach(btn=>{btn.classList.remove('bg-primary','text-on-primary');btn.classList.add('bg-surface-container','text-on-surface-variant')});button.classList.remove('bg-surface-container','text-on-surface-variant');button.classList.add('bg-primary','text-on-primary');}
+function toggleInterest(button){const on=button.classList.contains('bg-primary');button.classList.toggle('bg-primary',!on);button.classList.toggle('text-on-primary',!on);button.classList.toggle('bg-surface-container',on);button.classList.toggle('text-on-surface-variant',on);if(!on){const hidden=document.getElementById('selected-journey');if(hidden)hidden.value=button.textContent.trim();}}
+function openExperienceDetail(kind,index){let d,title,kicker,duration,route,intro,days,includes=[];if(kind==='season'){d=VL_SEASONS[index];title=d.title;kicker='Native Calendar · '+d.type;duration=d.duration;route=d.route;intro=d.desc;days=[['DAY 01','Arrival & Context',d.detail],['DAY 02–03','Field Immersion','Meet local hosts, move through the working landscape and experience the seasonal activity directly.'],['DAY 04–05','Taste, Reflect & Depart','Consolidate the field experience with a hosted meal, local interpretation and a tailored closing session.']];includes=['Native field coordinator','Local mobility coordination','Season-specific host access','Direct bilingual guide support'];}
+else if(kind==='itinerary'){d=VL_ITINERARIES[index];title=d.title;kicker='Archipelagic Itinerary';duration=d.duration;route=d.route;intro=d.desc;days=[['DAY 01','Orientation & Arrival','Private arrival coordination and contextual briefing tailored to the route.'],['DAY 02–03','Core Journey','Deep field access with local hosts, cultural or landscape interpretation and carefully paced movement.'],['DAY 04–05','Local Immersion','Extended access to the people, places and working traditions that define the route.'],['FINAL DAY','Synthesis & Departure','Closing conversation, itinerary review and coordinated departure.']];includes=d.includes.split(', ').concat(['Verified on-the-ground local coordinator','Direct 24/7 bilingual WhatsApp guide link']);}
+else if(kind==='story'){d=VL_STORIES[index];title=d.title;kicker='Editorial Dispatch · Field Story';duration=d.duration;route=d.route;intro=d.desc;days=[['EARLY MORNING','Arrival & Context','Meet the local host and enter the working landscape before the day reaches its busiest rhythm.'],['FIELD HOURS','The Experience','Follow the people, craft, landscape or foodway at the centre of the story.'],['CLOSING','Reflection & Local Table',d.detail]];includes=[d.provenance,'Local field host','Context briefing','Direct bilingual guide support'];}
+else if(kind==='business'){d=VL_BUSINESS[index];title=d.title;kicker='Commercial & Advisory Layer · Business Mobility';duration=d.duration;route=d.location;intro=d.intro;days=d.days;includes=d.includes;}
+if(!d)return;document.getElementById('detail-kicker').textContent=kicker;document.getElementById('detail-title').textContent=title;document.getElementById('detail-duration').textContent=duration;document.getElementById('detail-route').textContent=route;document.getElementById('detail-intro').textContent=intro;document.getElementById('detail-kind').textContent=kind==='business'?'Business Journey':'Visit Locals Experience';document.getElementById('detail-itinerary').innerHTML=days.map(x=>`<div class="flex gap-4"><div class="w-20 shrink-0 text-xs font-bold text-tertiary pt-0.5">${x[0]}</div><div><h5 class="font-display-lg text-lg text-primary">${x[1]}</h5><p class="text-sm text-on-surface-variant leading-relaxed mt-1">${x[2]}</p></div></div>`).join('');document.getElementById('detail-includes').innerHTML=includes.map(x=>`<li class="flex items-start gap-2"><span class="w-1.5 h-1.5 mt-2 rounded-full bg-secondary shrink-0"></span><span>${x}</span></li>`).join('');document.getElementById('detail-wa').href='https://wa.me/6285285469417?text='+encodeURIComponent(`Hello Wafi, I would like to discuss ${title} with Visit Locals. Please share availability, requirements, itinerary details, and next steps.`);const m=document.getElementById('vl-detail-modal');m.classList.remove('hidden');m.classList.add('flex');m.setAttribute('aria-hidden','false');document.body.classList.add('overflow-hidden');}
+function closeExperienceDetail(){const m=document.getElementById('vl-detail-modal');if(m){m.classList.add('hidden');m.classList.remove('flex');m.setAttribute('aria-hidden','true');}document.body.classList.remove('overflow-hidden');}
+function openBusinessJourney(i){openExperienceDetail('business',i)}
+function handleJourneySubmit(event){event.preventDefault();const btn=document.getElementById('planner-submit-btn'),success=document.getElementById('planner-success-msg');if(btn&&success){btn.disabled=true;btn.textContent='Transmitting Parameters...';setTimeout(()=>{btn.classList.add('hidden');success.classList.remove('hidden')},700)}}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeExperienceDetail();});
+const revealObserver=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('vl-visible')}),{threshold:.12});document.querySelectorAll('.vl-section-reveal').forEach(e=>revealObserver.observe(e));
+   </script>
+  </main>
+  <footer class="w-full bg-surface-container-low text-on-surface mt-space-xl">
+   <div class="max-w-7xl mx-auto px-margin md:px-margin-md lg:px-margin-lg pt-space-xl pb-space-lg">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-lg pb-space-xl">
+     <div class="flex flex-col gap-space-sm">
+      <div class="flex flex-col">
+       <span class="font-display-lg text-[22px] tracking-wide text-primary leading-tight font-medium">
+        VISIT LOCALS
+       </span>
+       <span class="font-label-md text-[10px] tracking-widest uppercase text-tertiary font-semibold">
+        Discover Indonesia
+       </span>
+      </div>
+      <p class="font-body-lg text-sm text-on-surface-variant leading-relaxed">
+       The local operating layer between foreigners and Indonesia. Curated experiences, practical guidance, and trusted local access.
+      </p>
+     </div>
+     <div class="flex flex-col gap-space-sm">
+      <span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold">
+       Experience
+      </span>
+      <ul class="flex flex-col gap-2 font-body-lg text-sm text-on-surface-variant">
+       <li>
+        <a class="hover:text-primary transition-colors" href="/explore/?category=culture#experience-cards-grid">
+         Culture &amp; Heritage
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/explore/?category=culinary#experience-cards-grid">
+         Culinary
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/explore/?category=nature#experience-cards-grid">
+         Nature &amp; Adventure
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/experience/#custom-planner">
+         Wellness
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/experience/#destinations">
+         Islands &amp; Beaches
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="flex flex-col gap-space-sm">
+      <span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold">
+       Business
+      </span>
+      <ul class="flex flex-col gap-2 font-body-lg text-sm text-on-surface-variant">
+       <li>
+        <a class="hover:text-primary transition-colors" href="/business/#market-research">
+         Market Research
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/business/#supplier-sourcing">
+         Supplier Sourcing
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/business/#partner-matching">
+         Partner Matching
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/business/#due-diligence">
+         Due Diligence
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/business/#market-entry">
+         Market Entry
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="flex flex-col gap-space-sm">
+      <span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold">
+       Explore &amp; Guide
+      </span>
+      <ul class="flex flex-col gap-2 font-body-lg text-sm text-on-surface-variant">
+       <li>
+        <a class="hover:text-primary transition-colors" href="/experience/#destinations">
+         Destinations
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/insight/#featured-dispatch">
+         Travel Guide
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/explore/?category=culture#experience-cards-grid">
+         Culture
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/explore/?category=culinary#experience-cards-grid">
+         Food
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/insight/#latest-field">
+         Practical Indonesia
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/insight/#latest-field">
+         Local Stories
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="flex flex-col gap-space-sm">
+      <span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold">
+       Company
+      </span>
+      <ul class="flex flex-col gap-2 font-body-lg text-sm text-on-surface-variant">
+       <li>
+        <a class="hover:text-primary transition-colors" href="/partner/">
+         Partner With Us
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/partner/#partner-application">
+         Contact
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/partner/#how-it-works">
+         FAQ
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/privacy/">
+         Privacy
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-primary transition-colors" href="/terms/">
+         Terms
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="pt-space-md border-t border-outline-variant/40 flex flex-col md:flex-row items-center justify-between gap-space-sm font-label-md text-[11px] text-on-surface-variant">
+     <p>
+      &copy; 2025 VISIT LOCALS. All rights reserved.
+     </p>
+     <p class="tracking-wide uppercase font-semibold text-tertiary">
+      Discover Indonesia
+     </p>
+    </div>
+   </div>
+  </footer>
+  <style>
+   /* Visit Locals V4 shared responsive navigation */
+.vl-site-header {
+  position: relative;
+  z-index: 1000;
+}
+.vl-desktop-nav {
+  display: none;
+  align-items: center;
+  gap: 1.5rem;
+}
+.vl-desktop-nav-link {
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+  transition: opacity .2s ease;
+}
+.vl-desktop-nav-link:hover,
+.vl-desktop-nav-link.active {
+  opacity: .65;
+}
+.vl-mobile-menu-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  border-radius: 999px;
+  font-size: 0;
+}
+.vl-mobile-menu-button:hover {
+  background: rgba(0,0,0,.06);
+}
+.vl-mobile-menu-button span,
+.vl-mobile-menu-button span::before,
+.vl-mobile-menu-button span::after {
+  display: block;
+  width: 21px;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+  content: "";
+  transition: transform .2s ease, opacity .2s ease;
+}
+.vl-mobile-menu-button span {
+  position: relative;
+}
+.vl-mobile-menu-button span::before {
+  position: absolute;
+  top: -7px;
+}
+.vl-mobile-menu-button span::after {
+  position: absolute;
+  top: 7px;
+}
+.vl-mobile-menu-button[aria-expanded="true"] span {
+  background: transparent;
+}
+.vl-mobile-menu-button[aria-expanded="true"] span::before {
+  transform: translateY(7px) rotate(45deg);
+}
+.vl-mobile-menu-button[aria-expanded="true"] span::after {
+  transform: translateY(-7px) rotate(-45deg);
+}
+.vl-mobile-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  background: rgba(250,248,243,.98);
+  color: #1d211d;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.vl-mobile-panel.open {
+  display: block;
+}
+.vl-mobile-panel-inner {
+  min-height: 100%;
+  padding: 1.25rem 1.25rem 2rem;
+}
+.vl-mobile-panel-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 48px;
+  margin-bottom: 2rem;
+}
+.vl-mobile-close {
+  width: 44px;
+  height: 44px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 1;
+  color: inherit;
+}
+.vl-mobile-nav {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+.vl-mobile-nav-link {
+  display: block;
+  padding: .85rem 0;
+  color: inherit;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: clamp(1.45rem, 6vw, 2rem);
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  border-bottom: 1px solid rgba(29,33,29,.12);
+}
+.vl-mobile-nav-link.active {
+  font-weight: 600;
+}
+.vl-mobile-extra {
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(29,33,29,.15);
+}
+.vl-mobile-extra a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: .6rem 0;
+}
+body.vl-menu-open {
+  overflow: hidden !important;
+}
+@media (min-width: 1280px) {
+  .vl-desktop-nav { display: flex; }
+  .vl-mobile-menu-button { display: none; }
+}
+@media (max-width: 1279px) {
+  /* Keep desktop navigation hidden below XL and expose the mobile trigger. */
+  .vl-mobile-menu-button { display: inline-flex; }
+}
+  </style>
+  <style id="vl-header-fixes">
+   /* Visit Locals header interactions */
+.vl-language { position: relative; }
+.vl-language-menu {
+  position: absolute; right: 0; top: calc(100% + 10px); min-width: 112px;
+  padding: 6px; border: 1px solid rgba(14,26,36,.10); border-radius: 12px;
+  background: rgba(255,255,255,.98); box-shadow: 0 12px 30px rgba(14,26,36,.12);
+  display: none; z-index: 100;
+}
+.vl-language-menu.open { display: block; }
+.vl-language-option {
+  display:block; width:100%; border:0; background:transparent; text-align:left;
+  padding: 9px 11px; border-radius: 8px; font: inherit; cursor:pointer;
+  color:#0e1a24;
+}
+.vl-language-option:hover, .vl-language-option[aria-current="true"] { background: rgba(5,0,64,.07); }
+.vl-search-overlay {
+  position: fixed; inset: 0; z-index: 1000; background: rgba(14,26,36,.42);
+  backdrop-filter: blur(8px); display:none; align-items:flex-start; justify-content:center;
+  padding: 11vh 20px 30px;
+}
+.vl-search-overlay.open { display:flex; }
+.vl-search-dialog {
+  width:min(720px,100%); background:#fff9e8; color:#0e1a24; border-radius:20px;
+  box-shadow:0 25px 70px rgba(0,0,0,.22); overflow:hidden;
+}
+.vl-search-top { display:flex; gap:10px; align-items:center; padding:18px; border-bottom:1px solid rgba(14,26,36,.10); }
+.vl-search-input { flex:1; border:0; outline:0; background:transparent; font-size:18px; color:inherit; }
+.vl-search-close { border:0; background:transparent; cursor:pointer; font-size:25px; line-height:1; padding:4px 8px; }
+.vl-search-results { max-height:55vh; overflow:auto; padding:8px 12px 14px; }
+.vl-search-result { display:block; padding:12px; border-radius:10px; text-decoration:none; color:inherit; }
+.vl-search-result:hover { background:rgba(5,0,64,.07); }
+.vl-search-result small { display:block; margin-top:3px; opacity:.62; }
+.vl-search-empty { padding:18px; opacity:.65; }
+@media (max-width: 640px) {
+  .vl-search-overlay { padding: 8vh 12px 20px; }
+  .vl-search-dialog { border-radius:16px; }
+}
+  </style>
+  <div aria-hidden="true" class="vl-search-overlay" id="vl-search-overlay">
+   <div aria-label="Search Visit Locals" aria-modal="true" class="vl-search-dialog" role="dialog">
+    <div class="vl-search-top">
+     <span aria-hidden="true" class="material-symbols-outlined notranslate" translate="no">
+      search
+     </span>
+     <input autocomplete="off" class="vl-search-input" id="vl-search-input" placeholder="Search Visit Locals..." type="search"/>
+     <button aria-label="Close search" class="vl-search-close" id="vl-search-close" type="button">
+      &times;
+     </button>
+    </div>
+    <div class="vl-search-results" id="vl-search-results">
+    </div>
+   </div>
+  </div>
+  <div aria-hidden="true" class="vl-mobile-panel" id="vl-mobile-menu">
+   <div class="vl-mobile-panel-inner">
+    <div class="vl-mobile-panel-top">
+     <strong style="font-size:1.05rem;letter-spacing:.04em;">
+      VISIT LOCALS
+     </strong>
+     <button aria-label="Close menu" class="vl-mobile-close" type="button">
+      &times;
+     </button>
+    </div>
+    <nav aria-label="Mobile navigation" class="vl-mobile-nav">
+     <a class="vl-mobile-nav-link" href="/">
+      Home
+     </a>
+     <a class="vl-mobile-nav-link" href="/explore/">
+      Explore
+     </a>
+     <a class="vl-mobile-nav-link" href="/business/">
+      Business
+     </a>
+     <a class="vl-mobile-nav-link active" href="/experience/">
+      Experience
+     </a>
+     <a class="vl-mobile-nav-link" href="/insight/">
+      Insight
+     </a>
+     <a class="vl-mobile-nav-link" href="/partner/">
+      Partner With Us
+     </a>
+    </nav>
+    <div class="vl-mobile-extra">
+     <a href="/contact/">
+      Contact
+     </a>
+     <a href="/faq/">
+      FAQ
+     </a>
+    </div>
+   </div>
+  </div>
+  <script>
+   (function () {
+  function initVisitLocalsMenu() {
+    const panel = document.getElementById('vl-mobile-menu');
+    const button = document.querySelector('.vl-mobile-menu-button');
+    const close = panel ? panel.querySelector('.vl-mobile-close') : null;
+    if (!panel || !button) return;
+
+    function openMenu() {
+      panel.classList.add('open');
+      panel.setAttribute('aria-hidden', 'false');
+      button.setAttribute('aria-expanded', 'true');
+      document.body.classList.add('vl-menu-open');
+    }
+
+    function closeMenu() {
+      panel.classList.remove('open');
+      panel.setAttribute('aria-hidden', 'true');
+      button.setAttribute('aria-expanded', 'false');
+      document.body.classList.remove('vl-menu-open');
+    }
+
+    button.addEventListener('click', function () {
+      if (panel.classList.contains('open')) closeMenu();
+      else openMenu();
+    });
+
+    if (close) close.addEventListener('click', closeMenu);
+
+    panel.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', closeMenu);
+    });
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') closeMenu();
+    });
+
+    window.addEventListener('resize', function () {
+      if (window.innerWidth >= 1280) closeMenu();
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initVisitLocalsMenu);
+  } else {
+    initVisitLocalsMenu();
+  }
+})();
+  </script>
+  <script id="vl-header-interactions">
+   (function () {
+  const LANGS = { EN: 'en', ID: 'id', AR: 'ar', TUR: 'tr', FR: 'fr', JP: 'ja' };
+  const ROUTES = [
+    ['Home','/'], ['Explore','/explore/'], ['Business','/business/'],
+    ['Experience','/experience/'], ['Insight','/insight/'], ['Partner With Us','/partner/']
+  ];
+  const SEARCH_EXCLUDE = /^(home|explore|business|experience|insight|partner with us|talk to (a )?business consultant|plan (my )?trip|learn more|read more|discover more|view all|explore experiences|request (a )?quote|book experience|contact us|submit|dismiss)$/i;
+  function esc(s){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+  function cleanText(s){
+    return String(s||'').replace(/\s+/g,' ').replace(/(arrow_forward|expand_more|chevron_right|east|north_east)\s*$/i,'').trim();
+  }
+  function init() {
+    const path = location.pathname.replace(/\/+$/, '') || '/';
+    document.querySelectorAll('header nav a[data-path]').forEach(a => {
+      const href = new URL(a.getAttribute('href'), location.origin).pathname.replace(/\/+$/, '') || '/';
+      const active = href === path;
+      a.classList.remove('bg-primary-container','text-on-primary','font-bold','rounded-lg','px-space-xs','py-1');
+      if (active) {
+        a.classList.add('bg-primary-container','text-on-primary','font-bold','rounded-lg','px-space-xs','py-1');
+        a.setAttribute('aria-current','page');
+      } else a.removeAttribute('aria-current');
+    });
+
+    /* Global site search: content headings only, with a real target section. */
+    const searchButton=document.querySelector('header button[aria-label="Search Archive"]');
+    const overlay=document.getElementById('vl-search-overlay');
+    const input=document.getElementById('vl-search-input');
+    const results=document.getElementById('vl-search-results');
+    const close=document.getElementById('vl-search-close');
+    let siteItems=[];
+    async function buildIndex(){
+      const all=[];
+      for(const [label,url] of ROUTES){
+        try{
+          const r=await fetch(url,{credentials:'same-origin',cache:'no-store'}); if(!r.ok) continue;
+          const doc=new DOMParser().parseFromString(await r.text(),'text/html');
+          doc.querySelectorAll('main h1, main h2, main h3, main h4, main [data-search-title]').forEach(el=>{
+            const text=cleanText(el.getAttribute('data-search-title') || el.textContent);
+            if(text.length<3 || SEARCH_EXCLUDE.test(text)) return;
+            let target='';
+            if(el.id) target='#'+el.id;
+            else {
+              const section=el.closest('section[id], article[id], [data-search-section][id]');
+              if(section) target='#'+section.id;
+            }
+            all.push({text,href:url+target,page:label});
+          });
+        }catch(e){}
+      }
+      const seen=new Set();
+      siteItems=all.filter(x=>{const k=x.text+'|'+x.href;if(seen.has(k))return false;seen.add(k);return true;});
+    }
+    function render(q){
+      const query=q.trim().toLowerCase();
+      if(!query){results.innerHTML='<div class="vl-search-empty">Search destinations, experiences, businesses, insights, or topics across Visit Locals.</div>';return;}
+      const matches=siteItems.filter(x=>x.text.toLowerCase().includes(query)).slice(0,24);
+      results.innerHTML=matches.length
+        ? matches.map(x=>'<a class="vl-search-result" href="'+esc(x.href)+'"><strong>'+esc(x.text)+'</strong><small>'+esc(x.page)+'</small></a>').join('')
+        : '<div class="vl-search-empty">No matching content found. Try a destination, service, experience, or topic.</div>';
+    }
+    if(searchButton&&overlay&&input&&results&&close){
+      const open=async()=>{overlay.classList.add('open');overlay.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';input.value='';render('');input.focus();if(!siteItems.length)await buildIndex();};
+      const shut=()=>{overlay.classList.remove('open');overlay.setAttribute('aria-hidden','true');document.body.style.overflow='';};
+      searchButton.addEventListener('click',open); close.addEventListener('click',shut);
+      overlay.addEventListener('click',e=>{if(e.target===overlay)shut();});
+      input.addEventListener('input',()=>render(input.value));
+      document.addEventListener('keydown',e=>{if(e.key==='Escape'&&overlay.classList.contains('open'))shut();});
+    }
+
+    /* Language selector: fixed-width, never translated, Google Translate runs invisibly. */
+    const lw=document.querySelector('.vl-language'), lb=lw&&lw.querySelector('.vl-language-button'), lm=lw&&lw.querySelector('.vl-language-menu');
+    if(lw&&lb&&lm){
+      const opts=lw.querySelectorAll('.vl-language-option');
+      const saved=localStorage.getItem('vl-language')||'EN';
+      document.documentElement.dataset.vlLang=LANGS[saved]||'en';
+      const current=lb.querySelector('.vl-current-language');
+      if(current) current.textContent=saved;
+      opts.forEach(o=>o.setAttribute('aria-current',String(o.dataset.lang===saved)));
+      lb.addEventListener('click',e=>{e.stopPropagation();const open=lm.classList.toggle('open');lb.setAttribute('aria-expanded',String(open));});
+      document.addEventListener('click',()=>{lm.classList.remove('open');lb.setAttribute('aria-expanded','false');});
+      opts.forEach(o=>o.addEventListener('click',e=>{
+        e.stopPropagation();
+        const lang=o.dataset.lang||'EN';
+        localStorage.setItem('vl-language',lang);
+        if(current) current.textContent=lang;
+        opts.forEach(x=>x.setAttribute('aria-current',String(x===o)));
+        lm.classList.remove('open');lb.setAttribute('aria-expanded','false');
+        const target=LANGS[lang]||'en';
+        document.documentElement.dataset.vlLang=target;
+        if(lang==='EN') document.cookie='googtrans=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/';
+        else document.cookie='googtrans=/en/'+target+';path=/;SameSite=Lax';
+        location.reload();
+      }));
+    }
+
+    const hideGoogleUI=()=>{
+      document.documentElement.style.setProperty('top','0','important');
+      document.body.style.setProperty('top','0','important');
+      document.body.style.setProperty('margin-top','0','important');
+      document.querySelectorAll('.goog-te-banner-frame, .goog-te-balloon-frame, iframe.goog-te-banner-frame, .VIpgJd-ZVi9od-ORHb-OEVmcd, .VIpgJd-ZVi9od-aZ1wEm-l4eHX-hSRGPd').forEach(el=>{el.style.setProperty('display','none','important');el.style.setProperty('visibility','hidden','important');});
+    };
+    hideGoogleUI();
+    new MutationObserver(hideGoogleUI).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['style','class']});
+    window.googleTranslateElementInit=function(){
+      if(window.google&&google.translate&&google.translate.TranslateElement){
+        new google.translate.TranslateElement({pageLanguage:'en',autoDisplay:false,multilanguagePage:true},'google_translate_element');
+      }
+    };
+    if(!document.getElementById('google_translate_element')){const d=document.createElement('div');d.id='google_translate_element';d.style.cssText='position:fixed;left:-9999px;top:-9999px;width:1px;height:1px;overflow:hidden;pointer-events:none;';document.body.appendChild(d);}
+    if(!document.getElementById('vl-google-translate-script')){const sc=document.createElement('script');sc.id='vl-google-translate-script';sc.src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';document.body.appendChild(sc);}
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
+})();
+  </script>
+  <style id="vl-music-styles">
+   .vl-music-wrap{position:fixed;right:18px;bottom:96px;z-index:70;display:flex;align-items:center;gap:8px;}
+.vl-music-button{border:1px solid rgba(5,0,64,.12);background:rgba(255,249,232,.94);backdrop-filter:blur(12px);color:#050040;border-radius:999px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 28px rgba(0,0,0,.12);cursor:pointer;}
+.vl-music-button:hover{transform:translateY(-1px);}
+.vl-music-player{position:absolute;right:0;bottom:54px;width:1px;height:1px;opacity:0;pointer-events:none;overflow:hidden;border:0;}
+@media(max-width:640px){.vl-music-wrap{right:12px;bottom:90px}.vl-music-button{width:42px;height:42px}}
+  </style>
+  <div aria-label="Website music" class="vl-music-wrap" id="vl-music-control">
+   <button aria-label="Play website music" aria-pressed="false" class="vl-music-button" id="vl-music-button" title="Play music" type="button">
+    <span class="material-symbols-outlined notranslate" id="vl-music-icon" translate="no">
+     music_note
+    </span>
+   </button>
+   <iframe allow="autoplay; encrypted-media" class="vl-music-player" id="vl-music-player" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Visit Locals music">
+   </iframe>
+  </div>
+  <script id="vl-music-script">
+   (function(){
+  const btn=document.getElementById('vl-music-button'), frame=document.getElementById('vl-music-player'), icon=document.getElementById('vl-music-icon');
+  if(!btn||!frame||!icon)return;
+  const videoId='peNdQuoKOt0'; let playing=false;
+  btn.addEventListener('click',function(){
+    if(!playing){
+      frame.src='https://www.youtube-nocookie.com/embed/'+videoId+'?enablejsapi=1&autoplay=1&loop=1&playlist='+videoId+'&controls=0';
+      playing=true; icon.textContent='graphic_eq'; btn.setAttribute('aria-pressed','true'); btn.setAttribute('aria-label','Pause website music'); btn.title='Pause music';
+    }else{
+      frame.src=''; playing=false; icon.textContent='music_note'; btn.setAttribute('aria-pressed','false'); btn.setAttribute('aria-label','Play website music'); btn.title='Play music';
+    }
+  });
+})();
+  </script>
+  <!-- Visit Locals WhatsApp Guide -->
+  <style id="vl-whatsapp-styles">
+   .vl-wa-wrap{position:fixed;right:18px;bottom:24px;z-index:90;font-family:inherit}
+  .vl-wa-trigger{display:flex;align-items:center;gap:10px;border:0;background:#1a6c39;color:#fff;padding:12px 16px;border-radius:999px;box-shadow:0 16px 40px -12px rgba(30,58,76,.28),0 3px 10px rgba(0,0,0,.12);cursor:pointer;transition:transform .2s ease,background .2s ease}
+  .vl-wa-trigger:hover{transform:translateY(-2px);background:#14572e}
+  .vl-wa-trigger .vl-wa-copy{display:flex;flex-direction:column;text-align:left;line-height:1.05}
+  .vl-wa-trigger .vl-wa-kicker{font-size:10px;letter-spacing:.06em;text-transform:uppercase;opacity:.8}
+  .vl-wa-trigger .vl-wa-label{font-size:14px;font-weight:600}
+  .vl-wa-panel{position:absolute;right:0;bottom:62px;width:310px;background:#fff9e8;border:1px solid rgba(5,0,64,.1);border-radius:18px;box-shadow:0 22px 60px rgba(5,0,64,.18);padding:16px;display:none}
+  .vl-wa-panel.is-open{display:block}
+  .vl-wa-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+  .vl-wa-title{font-size:15px;font-weight:700;color:#050040}
+  .vl-wa-subtitle{font-size:12px;color:#5d5a67;margin-top:3px}
+  .vl-wa-close{border:0;background:transparent;color:#777;cursor:pointer;font-size:22px;line-height:1;padding:2px 5px}
+  .vl-wa-person{display:flex;align-items:center;gap:12px;width:100%;text-align:left;border:1px solid rgba(5,0,64,.1);background:#fff;border-radius:14px;padding:12px;margin-top:9px;cursor:pointer;transition:transform .15s ease,border-color .15s ease,background .15s ease}
+  .vl-wa-person:hover{transform:translateY(-1px);border-color:rgba(26,108,57,.45);background:#fbfff8}
+  .vl-wa-avatar{width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto;overflow:hidden;background:#e7f1e8}.vl-wa-avatar svg{width:46px;height:46px;display:block}.vl-wa-person .vl-wa-avatar-wafi{background:#e7f1e8}.vl-wa-person .vl-wa-avatar-safirah{background:#f3e7df}
+  .vl-wa-person strong{display:block;color:#050040;font-size:14px}
+  .vl-wa-person span{display:block;color:#5d5a67;font-size:12px;margin-top:2px}
+  @media(max-width:640px){
+    .vl-wa-wrap{right:12px;bottom:18px}
+    .vl-wa-trigger{width:48px;height:48px;padding:0;justify-content:center}
+    .vl-wa-trigger .vl-wa-copy{display:none}
+    .vl-wa-panel{right:0;bottom:58px;width:min(310px,calc(100vw - 24px))}
+  }
+  </style>
+  <div class="vl-wa-wrap" id="vl-wa-control">
+   <div aria-labelledby="vl-wa-title" aria-modal="false" class="vl-wa-panel" id="vl-wa-panel" role="dialog">
+    <div class="vl-wa-head">
+     <div>
+      <div class="vl-wa-title" id="vl-wa-title">
+       Choose your consultant
+      </div>
+      <div class="vl-wa-subtitle">
+       Chat directly on WhatsApp
+      </div>
+     </div>
+     <button aria-label="Close" class="vl-wa-close" id="vl-wa-close" type="button">
+      &times;
+     </button>
+    </div>
+    <button class="vl-wa-person" data-name="Wafi" data-wa="6285285469417" type="button">
+     <span aria-hidden="true" class="vl-wa-avatar vl-wa-avatar-wafi">
+      <svg role="img" viewbox="0 0 48 48">
+       <circle cx="24" cy="24" fill="#e7f1e8" r="23">
+       </circle>
+       <path d="M13 22c0-8 5-13 12-13s12 5 12 13v5H13z" fill="#16133f">
+       </path>
+       <path d="M15 24c0-7 4-11 9-11 6 0 10 4 10 11v8c0 6-4 10-10 10-5 0-9-4-9-10z" fill="#c9825b">
+       </path>
+       <path d="M15 22c1-7 5-10 10-10 4 0 8 2 10 7-4-2-8-3-12-2-3 1-5 3-8 5z" fill="#16133f">
+       </path>
+       <circle cx="21" cy="27" fill="#16133f" r="1.2">
+       </circle>
+       <circle cx="29" cy="27" fill="#16133f" r="1.2">
+       </circle>
+       <path d="M21 34c2 2 4 2 6 0" fill="none" stroke="#7b3e32" stroke-linecap="round" stroke-width="1.4">
+       </path>
+       <path d="M10 47c1-8 6-12 14-12s13 4 14 12" fill="#315b83">
+       </path>
+      </svg>
+     </span>
+     <span>
+      <strong>
+       Wafi
+      </strong>
+      <span>
+       Business Consultant &middot; +62 852-8546-9417
+      </span>
+     </span>
+    </button>
+    <button class="vl-wa-person" data-name="Safirah" data-wa="6282258511052" type="button">
+     <span aria-hidden="true" class="vl-wa-avatar vl-wa-avatar-safirah">
+      <svg role="img" viewbox="0 0 48 48">
+       <circle cx="24" cy="24" fill="#f3e7df" r="23">
+       </circle>
+       <path d="M11 24c0-10 5-16 13-16 9 0 14 7 14 17v14H10z" fill="#201b49">
+       </path>
+       <path d="M15 24c0-7 4-11 9-11 6 0 10 4 10 11v8c0 6-4 10-10 10-5 0-9-4-9-10z" fill="#c9825b">
+       </path>
+       <path d="M14 23c1-8 6-12 11-12 5 0 9 3 11 9-3-3-7-4-12-3-4 1-6 4-10 6z" fill="#201b49">
+       </path>
+       <path d="M13 22c-2 4-3 10-2 16h5V24zM35 22c3 4 4 10 3 16h-5V24z" fill="#201b49">
+       </path>
+       <circle cx="21" cy="27" fill="#16133f" r="1.2">
+       </circle>
+       <circle cx="29" cy="27" fill="#16133f" r="1.2">
+       </circle>
+       <path d="M21 34c2 2 4 2 6 0" fill="none" stroke="#7b3e32" stroke-linecap="round" stroke-width="1.4">
+       </path>
+       <path d="M10 47c1-8 6-12 14-12s13 4 14 12" fill="#8d5a78">
+       </path>
+      </svg>
+     </span>
+     <span>
+      <strong>
+       Safirah
+      </strong>
+      <span>
+       Tourism Consultant &middot; +62 822-5851-1052
+      </span>
+     </span>
+    </button>
+   </div>
+   <button aria-controls="vl-wa-panel" aria-expanded="false" aria-label="Choose WhatsApp consultant" class="vl-wa-trigger" id="vl-wa-trigger" type="button">
+    <span aria-hidden="true" class="material-symbols-outlined notranslate" translate="no">
+     chat
+    </span>
+    <span class="vl-wa-copy">
+     <span class="vl-wa-kicker">
+      Instant Guide
+     </span>
+     <span class="vl-wa-label">
+      WhatsApp Desk
+     </span>
+    </span>
+   </button>
+  </div>
+  <script id="vl-wa-script">
+   (function(){
+  const wrap=document.getElementById('vl-wa-control');
+  if(!wrap) return;
+  const trigger=document.getElementById('vl-wa-trigger');
+  const panel=document.getElementById('vl-wa-panel');
+  const close=document.getElementById('vl-wa-close');
+  function setOpen(open){ panel.classList.toggle('is-open',open); trigger.setAttribute('aria-expanded',String(open)); }
+  trigger.addEventListener('click',function(e){e.stopPropagation();setOpen(!panel.classList.contains('is-open'));});
+  close.addEventListener('click',function(){setOpen(false);});
+  panel.querySelectorAll('[data-wa]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      const number=btn.getAttribute('data-wa');
+      const name=btn.getAttribute('data-name') || 'Visit Locals';
+      const message=encodeURIComponent('Hello '+name+', I found you through Visit Locals and would like to ask about Indonesia.');
+      window.open('https://wa.me/'+number+'?text='+message,'_blank','noopener,noreferrer');
+      setOpen(false);
+    });
+  });
+  document.addEventListener('click',function(e){if(!wrap.contains(e.target)) setOpen(false);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape') setOpen(false);});
+})();
+  </script>
+ <script src="/assets/js/vl-inquiry.js" defer></script>
+</body>
+</html>
